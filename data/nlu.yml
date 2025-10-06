@@ -1,0 +1,1482 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: about_sap
+  examples: |
+    - what is Sapthagiri
+    - tell about sapthagiri
+    - tell about your college
+    - tell about this college
+    - can you tell me about sapthagiri
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - tell about you
+    - what is your name 
+    - who made you
+    - why are you made
+
+- intent: about_courses
+  examples: |
+    - what courses do Sapthagiri offer
+    - tell about courses in sapthagiri
+    - tell me about the courses offered
+    - which courses are offered 
+    - courses
+    - branches
+    - what streams does sapthagiri offer
+    - how many courses are there 
+    - how many streams are there 
+    - courses offered in your college 
+    - courses offered in sapthagiri 
+
+- intent: about_sciencecourses
+  examples: |
+    - tell about Science courses
+    - tell more about science
+    - science courses
+    - science stream
+    - science branch
+    - want more about science courses
+    - science courses offered in the college     
+
+- intent: about_commercecourses
+  examples: |
+    - tell about commerce courses
+    - tell more about commerce
+    - commerce courses
+    - commerce stream
+    - commerce branch
+    - want more about commerce courses
+    - commerce courses offered in the college
+
+- intent: location
+  examples: |
+    - where is sapthagiri located
+    - direction to sapthagiri college 
+    - way to sapthagiri college
+    - maps to this college
+    - where is the college located
+    - how to reach sapthagiri college   
+
+- intent: praise
+  examples: |
+    - thankyou
+    - thanks 
+    - very good explaination
+    - thankyou for guiding 
+    - it was very helpful
+    - very nice    
+
+- intent: events
+  examples: |
+    - tell me about events in sapthagiri
+    - events
+    - events in sap
+    - events in sapthagiri
+    - are there any events in sapthagiri
+    - various events in sapthagiri
+    - Tell me about upcoming events in Sapthagiri College
+    - What events are happening at Sapthagiri College
+    - Could you give me information about the events organized by Sapthagiri College   
+
+- intent: STEM
+  examples: |
+    - what is stem expo
+    - more about stem expo
+    - STEM Expo
+    - tell about Stem expo
+    - about stem expo
+    - details about stem expo
+    - explain about stem expo
+    - explain stem expo
+
+- intent: Robotic
+  examples: |
+    - what is robotics workshop
+    - more about robotics workshop
+    - does sapthagiri have robotics workshop
+    - robotics workshop
+    - explain about robotics workshop
+    - how robotics workshop is useful
+    - details about robotics workshop in sap
+    - can i participate in robotics workshop  
+
+- intent: Environment
+  examples: |
+    - what is environment day
+    - does sapthagiri celebrate Environment day
+    - details on Environment day
+    - explain about Environment day in sap
+    - Environment day celebration in sapthagiri
+    - can i participate in environment day
+    - more about environment day
+    - environment day    
+
+- intent: Techno
+  examples: |
+    - what is Technothlon exam
+    - details about Technothlon
+    - does sapthagiri conducts Technothlon
+    - can i participate in Technothlon exam
+    - more about Technothlon
+    - Technothlon exam
+    - explain about Technothlon exam   
+
+- intent: Ankura
+  examples: |
+    - what is Ankura
+    - more about Ankura
+    - what is special about Ankura
+    - can i participate in Ankura
+    - details about Ankura
+    - Ankura
+    - tell about ankura event
+    - tell about ankara event
+    - what is ankara
+    - freshers day 
+    - felicitation in sapthagiri
+    - does sapthagiri celebrate freshers day 
+
+- intent: Namdesi
+  examples: |
+    - what is Namdesi
+    - more about Namdesi
+    - cultural fest in sapthagiri
+    - details about Namdesi
+    - can i participate in Namdesi
+    - Namdesi   
+
+- intent: SAP
+  examples: |
+    - what is sap
+    - more about sap
+    - can i participate in sap
+    - details about sap
+    - SAP
+    - SAP 1 and 2   
+
+- intent: TED-ED
+  examples: |
+    - what is TED-ED
+    - more about TED-ED
+    - details about ted
+    - TED-ED
+    - ted-ed
+    - ted   
+
+- intent: BOCS
+  examples: |
+    - what is BOCS
+    - more about BOCS
+    - Basics of computer software
+    - details about BOCS
+    - BOCS
+    - bocs    
+
+- intent: BCPD
+  examples: |
+    - what is BCPD
+    - more about BCPD
+    - tell about BCPD
+    - BCPD
+    - bcpd
+    - Business Communication and Personality Development 
+
+- intent: Industrial
+  examples: |
+    - what is Industrial Visit
+    - tell about Industrial Visit
+    - more Industrial Visit
+    - Industrial Visit
+    - industrial visit
+    - trips in sapthagiri
+    - educational trip in sapthagiri     
+
+- intent: Bank
+  examples: |
+    - bank visit in sapthagiri
+    - more about bank visit
+    - tell about bank visit trio in sapthagiri
+    - Bank Visit
+    - bank visit
+    - what is Bank Visit  
+
+- intent: Deepavali
+  examples: |
+    - Deepavali Mela
+    - mela in sapthagiri
+    - more about deepavali mela
+    - what is deepavali mela
+    - details about Deepavali mela
+    - deepavali mela
+    - deepavali celebration
+
+- intent: Kurukshetra
+  examples: |
+    - Kurukshetra
+    - more about Kurukshetra
+    - details about Kurukshetra
+    - what is Kurukshetra
+    - Kurukshetra celebration
+    - Kurukshetra in sapthagiri       
+
+- intent: SEPME
+  examples: |
+    - SEPME
+    - Sapthagiri Experiential Programming For Management And Entrepreneurship
+    - more about SEPME
+    - what is SEPME
+    - details about SEPME
+    - sepme
+    - SEPME in sapthagiri   
+
+- intent: Tally
+  examples: |
+    - what is Tally
+    - more about Tally
+    - Tally in sapthagiri
+    - Tally
+    - more about Tally 
+    - details about Tally             
+
+- intent: Special
+  examples: |
+    - what makes sapthagiri special
+    - What sets Sapthagiri College apart from other institutions?
+    - Can you tell me about the unique features that define Sapthagiri College
+    - What are the standout qualities that make Sapthagiri College different
+    - Why should I consider Sapthagiri College for my education
+    - What aspects of Sapthagiri College contribute to its reputation
+    - What values or principles does Sapthagiri College uphold that make it special
+    - why is sapthagiri famous
+
+- intent: scifaculty
+  examples: |
+    - tell about science faculty in sapthagiri
+    - science facutly
+    - faculty in science
+    - information about science faculty
+    - details about science faculty
+    - more about science faculty
+    - teachers in science
+
+- intent: faculty
+  examples: |
+    - faculty
+    - faculty of sapthagiri college
+    - information about faculty in sapthagiri
+    - details of faculty in sapthagiri
+    - more about faculty in sapthagiri
+    - teachers of sapthagiri
+    - tell about faculty
+
+- intent: comfaculty
+  examples: |
+    - tell about commerce faculty in sapthagiri
+    - commerce facutly
+    - faculty in commerce
+    - information about commerce faculty
+    - details about commerce faculty
+    - more about commerce faculty
+    - teachers in commerce
+
+- intent: adminfaculty
+  examples: |
+    - tell about the administrative staff in sapthagiri
+    - administrative faculty of college
+    - Can you provide information about the administrative personnel at Sapthagiri?
+    - Please describe the administrative team working at Sapthagiri.
+    - What can you tell me about the staff responsible for administrative tasks at Sapthagiri?
+    - I'd like to know more about the individuals who handle administrative responsibilities at Sapthagiri.
+    - Could you give me an overview of the administrative staff members in Sapthagiri?
+    - Tell me about the employees involved in administrative roles at Sapthagiri.
+    - Provide details about the administrative workforce at Sapthagiri.
+
+- intent: langfaculty
+  examples: |
+    - who are the language staff in sapthagiri
+    - language faculty at the college
+    - Please introduce me to the members of the language department at Sapthagiri.
+    - Could you provide information about the language faculty at Sapthagiri?
+    - Provide details about the language educators employed by Sapthagiri.
+    - Tell me about Sapthagiri's language staff
+    - Who teaches languages at Sapthagiri?
+
+- intent: extrafacility
+  examples: |
+    - extra facilities at college
+    - what are all the extrafacilities offered at sapthagiri colllege?
+    - Can you list the additional amenities available at Sapthagiri College?
+    - What other facilities can students access at Sapthagiri College apart from academics?
+    - I'd like to learn more about the extra services and resources at Sapthagiri College. What can you tell me?
+    - Please provide some details on tshe additional provisions and resources available to students at Sapthagiri College.
+    - I'd like to know more about the moderate facilities and features that Sapthagiri College offers to its student body.
+    - What are the supplementary benefits and resources that students can access at Sapthagiri College?
+
+- intent: JD
+  examples: |
+    - Who is Jagdeesh N?
+    - Who is Jagdeesh?
+    - Who is JD?
+    - Could you introduce me to Jagdeesh N, who goes by the name JD at his college?
+    - Tell me about Jagdeesh N, also known as JD in his college?
+    - Tell me about Jagdeesh N, also known as JD in his college
+    - Can you give me details about JD?
+    - Who is JD in college, and what is his full name?
+    - Who is JD in college, and what is his full name
+    - Who is JD sir ?
+    - What can you tell me about JD, or Jagdeesh N
+    - Tell me about JD
+    - Tell me about JD?
+    - Details of JD?
+    - Which subject does JD sir teach
+    - JD sir
+
+- intent: CS
+  examples: |
+    - Who is CS sir?
+    - Who is cs sir
+    - CS sir
+    - Who is Chandrashekhar Sir?
+    - Who is the HOD of mathematics department
+    - Who is the HOD of mathematics department?
+    - Who is the hod of mathematics department
+    - Could you introduce me to CS sir?
+    - Could you introduce me to CS sir
+    - What can you tell me about CS sir?
+    - Who is CS sir, and what is his role or profession
+    - Can you tell me more about CS sir
+    - More about CS sir
+    - Which subject does CS sir teach?
+    - More about cs sir 
+    - Can you provide information about Chandrashekhar Sir
+    - Tell me about Chandrashekhar Sir. Who is he?
+    - Can you provide some information about CS sir
+    - Can you provide some information about Maths hod
+    - Can you provide some information about chandrashekhar sir
+    - Chandrashekhar Sir has been mentioned, but I'd like to know more about him. Who is he?
+
+- intent: HR
+  examples: |
+    - Tell me about Chemistry HR Sir. Who is he?
+    - Introduce me to Chemistry HR Sir, please
+    - More about Chemistry HR sir
+    - more about Chemistry hr sir
+    - Who is Chemistry HR Sir?
+    - which subject does Chemistry HR sir teach ?
+    - What can you tell me about Chemistry HR Sir
+    - Who is Chemistry HR Sir, and what is his background or role?
+    - Could you give me details about Chemistry HR Sir
+    - I'm enrolled in Chemistry HR Sir's class, and I'm interested in knowing more about him. Who is HR Sir?
+    - Who exactly is Chemistry HR Sir?
+    - Chemistry HR sir
+    - Science HR Sir
+    - I want to know more about Science HR Sir
+    - I want to know more about Science HR Sir?
+    - Hanumantharaju M T
+    - tell about Hanumantharaju sir
+    - who is Hanumantharaju M T sir
+    - Hanumantharaju sir
+    - information about Hanumantharaju M T sir
+
+- intent: NR
+  examples: |
+    - Could you provide some information about NR Sir?
+    - Who is NR Sir, and what is his role within our organization
+    - Can you introduce me to NR Sir 
+    - Who is NR Sir
+    - who is nr sir
+    - Who is physics niranjan sir?
+    - more about NR sir
+    - can you tell me more about NR sir
+    - more about nr sir
+    - I've noticed NR Sir's name mentioned. Can you give me some insights into his professional identity
+    - Can you tell me about NR Sir?
+    - Can you tell me about NR Sir
+    - who is physics niranjan sir?
+    - Can you tell me about NR Sir
+    - NR sir
+    - full details of NR sir
+    - Niranjan T V sir
+
+- intent: NK
+  examples: |
+    - Can you tell me about NK Sir
+    - Can you tell me about N. Keerthi Sir
+    - Can you tell me about Keerthi Sir
+    - more about nk sir
+    - more about NK sir
+    - tell me about NK sir
+    - who is nk sir
+    - Who is NK sir
+    - who is keerthi sir
+    - NK sir
+    - Who is N. Keerthi sir
+    - full details of NK sir
+    - who is keerthi sir    
+
+- intent: MAG
+  examples: |
+    - who is the hod of physiscs
+    - who is the HOD of Physics depatment
+    - Who's MAG sir?
+    - Who is MAG sir, and what's his background?
+    - Tell me about MAG sir
+    - Who is MAG sir, and what is his expertise?
+    - What's the background of MAG sir?
+    - more about MAG sir 
+    - Who is the Vice principle of sri sapthagiri PU college
+    - who is the vice principle of the college
+    - provide some information about Guruprasad sir
+    - Could you introduce me to Guruprasad sir
+    - Could you introduce me to MAG sir
+    - give MAG sir's detalis
+    - details of MAG sir
+    - MAG sir
+
+- intent: GR
+  examples: |
+    - Who's GR sir?
+    - Introduce me to GR sir
+    - GR sir 
+    - details of GR sir
+    - Tell me about GR sir
+    - Could you introduce me to GR sir
+    - Who is Govinda Raju sir, and what is his expertise?
+    - Full name of GR sir
+    - Full Details of GR sir
+    - provide some information about Govinda Raju sir?
+    - provide some information about GR sir?
+
+- intent: NS
+  examples: |
+    - NS mam
+    - Nagashree S mam
+    - Can you tell me about NS mam?
+    - provide some information about NS mam?
+    - introduce me to NS mam?
+    - Who is NS mam
+    - who is the HOD of Biology department
+    - details of NS mam
+    - More about NS mam
+    - information about NS mam
+    - more about NS mam
+    - Who is NS mam
+    - full name of NS mam
+    - full details of NS mam
+    - who is Nagashree S
+
+- intent: HS
+  examples: |
+    - HS sir
+    - hs sir
+    - Who is HS sir?
+    - who is HS sir?
+    - deatails of HS sir
+    - deatils of HS sir
+    - Tell me about HS sir
+    - Who is HS sir and what does he do?
+    - Could you introduce me to HS sir
+    - information about HS sir
+    - which subject does hs sir teach
+    - Which subject doe HS sir teach
+    - more about HS sir
+    - who is Maths Hemanth Kumar sir
+    - Hemanth Kumar sir in Mathematics
+    - Maths Hemanth Sir
+
+- intent: SM
+  examples: |
+    - Can you tell me about SM mam?
+    - Who is this person referred to as SM mam?
+    - Who is SM mam
+    - Who is SM mam?
+    - Who's SM mam
+    - Tell me about SM mam
+    - more about SM mam
+    - Tell me about SM mam, and what is her role?
+    - SM mam
+    - which subject does SM mam teach
+    - Tell me about SM mam what does she do
+    - Shewtha mam
+
+- intent: hem_com
+  examples: |
+    - Who is Hemanth Kumar sir
+    - tell about Hemanth Kumar sir
+    - Hemanth Kumar sir
+    - Hemanth sir
+    - more about Hemanth Kumar 
+
+- intent: HKS
+  examples: |
+    - Who is HKS sir?
+    - Who is HKS sir
+    - Tell me about HKS sir.
+    - Introduce me to HKS sir
+    - tell me about HKS sir?
+    - What can you tell me about HKS sir?
+    - Who is HKS sir, and what is his expertise?
+    - HKS sir
+    - hks sir
+    - Give me details about HKS sir
+    - more about HKS sir
+    - what subject does HKS sir teach
+    - educational qualifications of HKS sir
+    - who is chemistry Hemanth Kumar sir
+    - Hemanth Kumar sir in chemistry
+    - chemistry Hemanth Sir
+
+- intent: BHP
+  examples: |
+    - Who is BHP sir 
+    - like to know more about BHP sir
+    - Who is BHP sir
+    - more about BHP sir
+    - BHP sir
+    - BHP Sir
+    - more about BHP sir
+    - what subject does BHP sir teach
+    - educational qualifications of BHP sir
+    - more info of BHP sir
+    - information about BHP sir
+    - I'm seeking information about BHP sir. Can you provide it?
+    - What is BHP sir's expertise in, and how can he assist?
+    - What is BHP sir's expertise in?
+    - Pranesh Reddy sir
+
+- intent: HES
+  examples: |
+    - Tell me about HES sir's area of expertise.
+    - Tell me about HES sir
+    - Who is HES sir
+    - HES Sir
+    - more about HES sir 
+    - tell me about HES sir
+    - Intriduce me to HES sir
+    - hes sir
+    - what subject does HES sir teach
+    - who is the head of department of chemistry 
+    - who is the HOD of chemistry
+    - educational qualifications of HES sir
+    - like to know more about HES sir
+    - Shivamurthi H E sir
+    - Shivamurthi sir
+
+- intent: DS
+  examples: |
+    - know who DS mam is
+    - know who is DS mam 
+    - Tell me about DS mam
+    - provide me with details about DS mam
+    - seeking details about DS mam
+    - DS Mam
+    - ds mam
+    - who is DS mam
+    - Who is DS mam
+    - who is ds mam
+    - what subject does DS mam teach 
+    - provide some information about DS mam
+    - Divya mam
+
+- intent: PMN
+  examples: |
+    - like to know who PMN mam is.
+    - more about PMN mam
+    - details about PMN mam
+    - information regarding PMN mam
+    - Who is PMN mam
+    - would like to know more about PMN mam
+    - PMN Mam 
+    - pmn mam 
+    - what subject does PMN mam teach 
+    - more info about PMN mam
+    - what subject doe pmn mam teach
+    - Padmini N mam
+
+- intent: MCA
+  examples: |
+    - Can you tell me about MCA mam?
+    - Can you tell me about MCA mam
+    - tell me about MCA mam
+    - Who is MCA mam
+    - some information about MCA mam
+    - information about MCA mam
+    - more about MCA mam
+    - MCA mam
+    - mca mam
+    - what subject does MCA mam teach 
+    - what subject does mca mam teach 
+    - I want to know about MCA mam. Can you provide details?
+    - details about MCA mam.
+    - like to know more about MCA mam
+    - provide some information about MCA mam
+    - Anitha mam
+
+- intent: SPR
+  examples: |
+    - Who is SPR mam?
+    - Tell me about SPR mam
+    - Introduce me to SPR mam, please.
+    - Introduce me to SPR mam
+    - tell me about SPR mam
+    - Tell me about SPR mam and her role
+    - not familiar with SPR mam. Can you provide some information about her
+    - SPR Mam 
+    - spr mam
+    - who is SPR mam 
+    - who is the Head of the departmet of Computer Science
+    - Who is the HOD of CS department 
+    - hod of cs dpartment
+    - Tell me about SPR mam
+    - information about SPR mam
+    - more about SPR mam
+    - Prabharani mam
+
+- intent: JS
+  examples: |
+    - Who is JS sir?
+    - Who is JS sir
+    - Tell me about JS sir.
+    - provide some information about JS sir
+    - I've heard about JS sir. Can you provide some information?
+    - tell me about JS sir
+    - about JS sir
+    - Tell me about JS sir and his role
+    - Could you introduce me to JS sir
+    - JS sir 
+    - js sir 
+    - what subject does js sir teach
+    - information about JS sir
+    - more about JS sir
+    - Tell me about JS sir and his role.
+    - What do you know about JS sir
+    - background of JS sir
+    - educational qualifications of JS sir
+    - Jeelani sir
+
+- intent: BTM
+  examples: |
+    - Can you tell me about BTM mam
+    - Can you tell me about BTM mam?
+    - provide some information about BTM mam?
+    - Introduce me to BTM mam
+    - Who is BTM mam
+    - Who is BTM mam, and what is her expertise?
+    - information about BTM mam
+    - BTM mam
+    - btm mam
+    - who is the hod of english department 
+    - who is the HOD of english department 
+    - what subject does BTM mam teach 
+    - more about BTM Mam
+    - Who's BTM mam, and what does she do
+    - Tell me about BTM mam
+    - Mamtha mam
+
+- intent: AS
+  examples: |
+    - Can you tell me about AS sir?
+    - introduce me to AS sir
+    - provide some information about AS sir
+    - Tell me about AS sir
+    - Who's AS sir
+    - more about AS sir 
+    - AS sir
+    - as sir
+    - Could you introduce me to AS sir?
+    - Can you tell me about Shrinath sir
+    - Who is Shrinath sir
+    - introduce me to Shrinath sir
+    - Tell me about Shrinath sir
+    - Tell me about Shrinath sir,
+    - Shrinath sir 
+    - shrinath sir
+    - more about shrinath sir
+    - introduce me to Shrinath sir
+    - what subject does Shrinath sir teach
+    - educational qualifications of Shrinath Sir    
+
+- intent: CB
+  examples: |
+    - Can you tell me about CB sir?
+    - provide some information about CB sir
+    - Who is CB sir
+    - Who is this person referred to as CB sir?
+    - more about CB sir
+    - introduce me to CB sir
+    - Tell me about CB sir
+    - I'd like to know more about CB sir
+    - Who's the person known as CB sir
+    - CB sir
+    - What subject does CB sir 
+    - who is the education officer of Sri Sapthagiri college
+    - CB sir's educational qualifications
+    - education officer of Sri Sapthagiri college
+    - Chennappa Barigidad sir
+    - Chennappa sir
+
+- intent: SIT
+  examples: |
+    - Can you tell me about SIT mam?
+    - Who is SIT mam
+    - can you tell me about SIT mam
+    - Introduce me to SIT mam
+    - provide some information about SIT mam
+    - SIT mam
+    - sit mam
+    - what subject does SIT mam teach
+    - Who is SIT mam, and what can you tell me about her profession?
+    - Tell me about SIT mam
+    - what subject does sit mam teach?
+    - what are SIT mam's educational qualifications
+    - Hindi Mam
+    - who is SIT mam
+    - Syeda Irfana Tabassum mam
+    - Irfana Tabassum mam
+
+- intent: HMP
+  examples: |
+    - who is prakash sir
+    - tell about prakash
+    - who is HMP sir
+    - HMP
+    - what subject does HMP Sir teach?
+    - Introduce me to Prakash Sir
+    - Prakash H M
+    - Prakash Sir
+    - HMP sir
+    - tell about HMP sir
+
+- intent: DVP
+  examples: |
+    - Can you tell me about DVP mam?
+    - Can you tell me about DVP mam
+    - introduce me to DVP mam
+    - Who is DVP mam, and what is her role?
+    - Could you provide some information about DVP mam?
+    - information about DVP mam
+    - Tell me about DVP mam
+    - more about DVP mam
+    - DVP mam 
+    - who is the HOD of kannnada department
+    - who is the hod of kannada department
+    - dvp mam
+    - what subject does dvp mam teach
+    - what subject does DVP mam teach
+    - I'd like to know more about DVP mam. Can you provide some information?
+    - Poornima mam
+
+- intent: RJ
+  examples: |
+    - Can you tell me about RJ sir?
+    - Who is RJ sir
+    - What can you tell me about RJ sir
+    - provide some information about RJ sir
+    - Tell me about RJ sir
+    - Who's RJ sir
+    - I'd like to know more about RJ sir
+    - more about RJ sir
+    - what can you tell me about RJ sir
+    - Could you introduce me to RJ sir?
+    - Who is RJ sir, and what is his expertise?
+    - RJ sir
+    - rj sir
+    - Tell me about RJ sir, and why is he referred to as RJ
+    - what subject does RJ sir teach
+    - Rathan sir
+
+- intent: VK
+  examples: |
+    - Can you tell me about VK mam?
+    - Can you tell me about VK mam
+    - Tell me about VK mam
+    - Introduce me to VK mam
+    - Who's VK mam
+    - about VK mam
+    - provide some information about VK mam
+    - Could you introduce me to VK mam
+    - Could you introduce me to VK mam?
+    - introduce me to VK mam
+    - Who's VK mam, and what does she do?
+    - VK mam 
+    - vk mam
+    - Vanitha mam  
+
+- intent: TK
+  examples: |
+    - Can you tell me about TK mam
+    - Can you tell me about TK mam?
+    - Introduce me to TK mam?
+    - Tell me about TK mam
+    - more about TK mam
+    - Who is TK mam
+    - TK mam
+    - tk mam
+    - what subject does TK mam teach
+    - about TK mam
+    - Could you introduce me to TK mam?
+    - Who is TK mam, and what is her expertise?
+    - Tarin Khanam mam
+    - Tarin mam
+
+- intent: TVS
+  examples: |
+    - Can you tell me about TVS sir?
+    - What can you tell me about TVS sir
+    - Introduce me to TVS sir
+    - Could you provide some information about TVS sir
+    - Who's TVS sir
+    - about TVS sir
+    - information about TVS sir.
+    - introduce me to TVS sir
+    - TVS sir 
+    - tvs sir 
+    - what subject does TVS sir teach 
+    - Surendra sir  
+
+- intent: HRc
+  examples: |
+    - Tell me about  economics HR Sir. Who is he?
+    - Introduce me to  economics HR Sir, please
+    - More about economics HR sir
+    - more about economics hr sir
+    - Who is commere HR Sir?
+    - which subject does commerce HR sir teach ?
+    - What can you tell me about economics HR Sir
+    - Who is commerce HR Sir, and what is his background or role?
+    - Could you give me details about economics HR Sir
+    - I'm enrolled in economics HR Sir's class, and I'm interested in knowing more about him. Who is HR Sir?
+    - Who exactly is economics HR Sir?
+    - economics HR sir
+    - commerce HR sir
+    - I want to know more about commerce HR Sir
+    - I want to know more about economics HR Sir?
+    - Ramesh H T sir
+    - tell about Ramesh H T sir
+    - who is Ramesh H T sir
+    - Ramesh H T  
+
+- intent: HR_com
+  examples: |
+    - Tell me about HR Sir. Who is he?
+    - Introduce me to HR Sir, please
+    - More about HR sir
+    - more about hr sir
+    - Who is HR Sir?
+    - which subject does HR sir teach ?
+    - What can you tell me about HR Sir
+    - Who is HR Sir, and what is his background or role?
+    - Could you give me details about HR Si
+    - I'm enrolled in HR Sir's class, and I'm interested in knowing more about him. Who is HR Sir?
+    - Who exactly is HR Sir?
+    - HR sir
+    - I want to know more about HR Sir
+    - I want to know more about HR Sir?
+
+- intent: HRs
+  examples: |
+    - Tell me about Sanskrit HR Sir. Who is he?
+    - Introduce me to Sanskrit HR Sir, please
+    - More about Sanskrit HR sir
+    - more about Sanskrit hr sir
+    - Who is Sanskrit HR Sir?
+    - which subject does Sanskrit HR sir teach ?
+    - What can you tell me about Sanskrit HR Sir
+    - Who is Sanskrit HR Sir, and what is his background or role?
+    - Could you give me details about Sanskrit HR Sir
+    - I'm enrolled in Sanskrit HR Sir's class, and I'm interested in knowing more about him. Who is HR Sir?
+    - Who exactly is Sanskrit HR Sir?
+    - Sanskrit HR sir
+    - I want to know more about Sanskrit HR Sir
+    - I want to know more about Sanskrit HR Sir? 
+    - Sanskrit sir
+    - Mr. Hanumantharayappa G
+    - tell about Mr. Hanumantharayappa G
+    - Hanumantharayappa G
+    - who is Hanumantharayappa
+    - more about Hanumantharayappa 
+
+- intent: HGS
+  examples: |
+    - Can you tell me about HGS sir?
+    - Who is HGS sir
+    - provide some information about HGS sir?
+    - Tell me about HGS sir
+    - Could you introduce me to HGS sir?
+    - introduce me to HGS sir
+    - HGS sir
+    - hgs sir
+    - more about HGS sir
+    - what subject does HGS sir teach
+    - information about HGS sir
+    - who is the hod of accountancy department
+    - who is the HOD of acountancy department
+    - Sindhoor sir
+
+- intent: LT
+  examples: |
+    - Can you tell me about Lavanya mam?
+    - Who is Lavanya mam
+    - Who is LT mam, and what is her role?
+    - Introduce me to lt mam, please
+    - Introduce me to Lavanya mam
+    - Can you provide some details about Lavanya mam?
+    - What's the background of LT mam
+    - more about lt mam
+    - LT mam
+    - Lavanya mam
+    - Could you introduce me to Lavanya mam
+    - what subject does Lavanya mam teach
+    - basic maths teacher
+
+- intent: JJ
+  examples: |
+    - Can you tell me about JJ mam?
+    - Introduce me to JJ mam
+    - Who is JJ mam
+    - Who's JJ mam, and what does she do?
+    - jj mam
+    - JJ mam
+    - Tell me about JJ mam
+    - provide some information about JJ mam
+    - tell me about JJ mam
+    - introduce me to JJ mam?
+    - more about JJ mam
+    - what subject does JJ mam teach
+    - Jyothi Rani mam
+    - Jyothi mam
+
+- intent: RK
+  examples: |
+    - Can you tell me about RK mam?
+    - Who is RK mam
+    - Who is RK mam, and what is her role?
+    - Introduce me to RK mam, please
+    - Introduce me to RK mam
+    - Can you provide some details about RK mam?
+    - What's the background of RK mam
+    - more about RK mam
+    - RK mam
+    - rk mam
+    - Could you introduce me to RK mam
+    - what subject does RK mam teach
+    - Rajni mam
+
+- intent: HCN
+  examples: |
+    - Can you tell me about HCN sir?
+    - What can you tell me about HCN sir
+    - Who is this person referred to as HCN sir
+    - more about HCN sir
+    - Could you introduce me to HCN sir
+    - Tell me about HCN sir
+    - Who is HCN sir, and what can you tell me about his profession?
+    - HCN sir 
+    - hcn sir
+    - what subject does HCN sir teach
+    - information about HCN sir
+    - Nagesh H C sir
+    - Nagesh sir
+
+- intent: MM
+  examples: |
+    - Can you tell me about MM sir?
+    - Who is MM sir
+    - Could you provide some information about MM sir
+    - What's the story with MM sir
+    - Who is MM sir
+    - Who's MM sir, and what does he do?
+    - MM sir
+    - More about MM sir
+    - Tell me about MM sir
+    - Could you introduce me to MM sir
+    - Tell me about MM sir, and what is his role?
+    - mm sir 
+    - what subject does MM sir Teach
+    - Mahantesh M sir
+
+- intent: DJ
+  examples: |
+    - Can you tell me about DJ sir
+    - Who is DJ sir
+    - Could you provide some information about DJ sir
+    - Introduce me to DJ sir
+    - Who is DJ sir, and what can you tell about him
+    - Who is DJ sir, and what is his role?
+    - more about DJ sir
+    - information about DJ sir
+    - DJ sir 
+    - dj sir
+    - what subject does DJ Sir teach
+    - Dhananjay sir
+
+- intent: random
+  examples: |
+    - What's the weather like today?
+    - How can I make a pizza at home?
+    - Can you recommend a good book to read?
+    - What's your favorite movie?
+    - How do I bake chocolate chip cookies?
+    - Tell me a joke.
+    - What's the latest news in technology?
+    - How can I improve my fitness?
+    - What's the recipe for chicken curry?
+    - How do I tie a tie?
+    - What's the best way to save money?
+    - How can I start a small business?
+    - Tell me about a famous historical event.
+    - How do I change a flat tire?
+    - What's your favorite vacation destination?
+    - What's the best way to study for exams?
+    - How do I plant a vegetable garden?
+    - What's the meaning of life?
+    - How can I learn a new language?
+    - What's the process for buying a house?
+    - How do I fix a leaky faucet?
+    - What's the most popular sport in the world?
+    - How can I improve my photography skills?
+    - Tell me about your favorite hobby.
+    - How do I make homemade ice cream?
+    - What's the best way to stay organized?
+    - How can I travel on a budget?
+    - What's the history of the Eiffel Tower?
+    - How do I build a website from scratch?
+    - Tell me a fun fact.
+    - What's the best way to meditate?
+    - How can I reduce stress in my life?
+    - What's your favorite type of music?
+    - How do I prepare for a job interview?
+    - What's the process for adopting a pet?
+    - How can I start a blog?
+    - What's your favorite type of cuisine?
+    - How do I make homemade pasta?
+    - Tell me about a famous artist.
+    - What's the best way to quit a bad habit?
+    - How can I volunteer in my community?
+    - What's the history of the Great Wall of China?
+    - How do I train a dog?
+    - What's the most beautiful place you've been to?
+    - How can I start a YouTube channel?
+    - What's your favorite animal?
+    - How do I create a budget?
+    - Tell me about a famous scientist.
+    - What's the best way to stay motivated?
+    - How can I become a better writer?
+    - What's the process for making homemade soap?
+    - How do I make a perfect cup of coffee?
+    - What's your favorite season?
+    - How can I improve my public speaking skills?
+    - What's the history of the pyramids in Egypt?
+    - How do I plan a road trip?
+    - What's the best way to learn to play a musical instrument?
+    - Tell me about a famous landmark.
+    - How can I start a podcast?
+    - What's your favorite food?
+    - How do I paint a room?
+    - What's the most challenging hike you've done?
+    - How can I become more eco-friendly?
+    - What's the process for brewing beer at home?
+    - How do I make a great smoothie?
+    - What's your favorite color?
+    - How can I improve my time management?
+    - What's the history of the Taj Mahal?
+    - How do I plan a camping trip?
+    - What's the best way to learn to dance?
+    - Tell me about a famous inventor.
+    - How can I start a fitness routine?
+    - What's the process for making homemade candles?
+    - How do I make a homemade face mask?
+    - What's your favorite holiday?
+    - How can I become a better photographer?
+    - What's the history of the Statue of Liberty?
+    - How do I organize a charity event?
+    - What's the best way to learn about different cultures?
+    - Tell me about a famous author.
+    - How can I start a home garden?
+    - What's the process for making homemade jewelry?
+    - How do I make a delicious salad?
+    - What's your favorite outdoor activity?
+    - How can I improve my negotiation skills?
+    - What's the history of the Colosseum in Rome?
+    - How do I plan a weekend getaway?
+    - What's the best way to learn about history?
+    - Tell me about a famous athlete.
+    - How can I start a collection?
+    - What's the process for making homemade soap?
+    - How do I make a great cocktail?
+    - What's your favorite board game?
+    - How can I improve my networking skills?
+    - What's the history of the Amazon Rainforest?
+    - How do I plan a family reunion?
+    - What's the best way to learn about art?
+    - Tell me about a famous musician.
+    - How can I start a book club?
+    - What's the process for making homemade pasta?
+    - What is 2 + 2
+    - Can you pass me the salt?
+    - How far is the nearest grocery store?
+    - Do you have any recommendations for a good workout routine?
+    - What's the best way to clean a stained carpet?
+    - Can you tell me a riddle?
+    - What is the capital of France?
+    - How do I make a paper airplane?
+    - Where can I find the nearest gas station?
+    - What's your favorite type of dessert?
+    - How do I change the oil in my car?
+    - Can you lend me a hand with this?
+    - What's the recipe for a classic margarita?
+    - How can I make my computer run faster?
+    - What's the best way to get rid of a headache?
+    - What time does the sun rise tomorrow?
+    - How do I create a new email account?
+    - Can you recommend a good Netflix series to watch?
+    - What's the history of the Internet?
+    - How can I improve my memory?
+    - What's your favorite fruit?
+    - How do I fold a fitted sheet?
+    - Can you give me directions to the nearest park?
+    - How do I calibrate my TV screen?
+    - What's the best way to clean a dirty oven?
+    - How do I tie a bowtie?
+    - Can you suggest a fun board game for a family game night?
+    - How do I make a paper mache sculpture?
+    - What's your favorite type of flower?
+    - How can I make homemade cleaning products?
+    - What's the history of the Olympics?
+    - How do I fix a running toilet?
+    - Can you recommend a good documentary to watch?
+    - What's the best way to get rid of ants in the kitchen?
+    - How do I build a birdhouse?
+    - Can you give me directions to the nearest post office?
+    - How do I create a strong password?
+    - What's your favorite type of coffee?
+    - How can I make my smartphone battery last longer?
+    - What's the history of the Mona Lisa painting?
+    - How do I remove a stain from a white shirt?
+    - Can you suggest a good podcast to listen to during a commute?
+    - What's the best way to organize a messy closet?
+    - How do I bake a loaf of homemade bread?
+    - What's your favorite type of music genre?
+    - How can I make my own natural cleaning products?
+    - What's the history of the World War II?
+    - How do I unclog a sink drain?
+    - Can you recommend a good app for learning a new language?
+    - What's the best way to get rid of weeds in a garden?
+    - How do I create a budget for a vacation?
+    - What's your favorite type of ice cream?
+    - How can I make a homemade face mask for glowing skin?
+    - What's the history of the ancient pyramids?
+    - How do I organize a surprise birthday party?
+    - Can you suggest a good YouTube channel for educational videos?
+    - What's the best way to clean silver jewelry?
+    - How do I start a blog about travel experiences?
+    - What's your favorite type of seafood?
+    - How can I make my own natural insect repellent?
+    - What's the history of the discovery of electricity?
+    - How do I repair a leaky roof?
+    - Can you recommend a good online course for learning coding?
+    - What's the best way to clean a stained mattress?
+    - How do I create a workout plan for building muscle?
+    - What's your favorite type of cheese?
+    - How can I make homemade bath bombs?
+    - What's the history of space exploration?
+    - How do I organize a neighborhood cleanup event?
+    - Can you suggest a good book for improving communication skills?
+    - What's the best way to get rid of fruit flies in the kitchen?
+    - How do I create a study schedule for exams?
+    - What's your favorite type of pizza topping?
+    - How can I make my own natural skincare products?
+    - What's the history of the development of the telephone?
+    - How do I paint a room with two different colors?
+    - Can you recommend a good documentary about wildlife?
+    - What's the best way to clean and maintain leather shoes?
+    - How do I start a podcast about science topics?
+    - What's your favorite type of salad dressing?
+    - Who is your god ?
+    - what is 2-2
+    - ?????
+    - .......
+    - i hate you chatbot
+
+- intent: how_u
+  examples: |
+    - Hi, How are you ? 
+    - How are you
+    - Hey there, how's it going?
+    - What's up, chatbot? How are you feeling?
+    - Hey, chatbot. Are you having a good day?
+    - Hello, How are you Chatbot ?
+
+- intent: founder
+  examples: |
+    - Who is the Founder of Sapthagiri ?
+    - Founder of Sapthagiri
+    - When was Sapthagiri Founded
+    - When was Sapthagiri Established ?
+    - Who built Sapthagiri ?
+    - Who made Sapthagiri
+    - When was Sapthagiri Built
+    - When was Sapthagiri made 
+
+- intent: Dru
+  examples: |
+    - who is Drushadwathi mam
+    - tell about Drushadwathi mam
+    - more about Drushadwathi mam
+    - Drushadwathi
+    - Drushadwathi mam
+    - information about Drushadwathi mam
+
+- intent: DSK
+  examples: |
+    - who is D S Kumar sir
+    - who is D S Kumar
+    - Who is DS Kumar?
+    - tell about D S Kumar
+    - president of sapthagiri college
+    - chaiman of sapthagir
+    - D S kumar
+    - information about D S Kumar sir
+    - who is president of sapthagiri college 
+
+- intent: PRK
+  examples: |
+    - who is Padmarekha mam
+    - tell about Padmarekha
+    - Secretary of Sapthagiri college
+    - who is Secretary of Sapthagiri college
+    - Padmarekha mam
+    - information about Padmarekha mam
+    - Padmarekha 
+
+- intent: NRP
+  examples: |
+    - Who is Principal of sapthagiri
+    - Biology Niranjan Sir
+    - Principal Niranjan Sir
+    - tell about Principal sir
+    - infomation about Principal sir 
+    - Niranjan Aradhya Sir
+    - Dr H S Niranjan Aradhya Sir
+
+- intent: CEO
+  examples: |
+    - who is the CEO of Sapthagiri College
+    - CEO
+    - Chef Executive Officer
+    - Who is Mrinal Kumar Sir
+    - tell about Mrinal Kumar
+    - more about Mrinal Kumar
+    - details of CEO of sapthagiri
+    - information about CEO of Sapthagiri college
+    - Mrinal Kumar Sir
+    - Mrinal Kumar 
+
+- intent: CBO
+  examples: |
+    - who is CBO of sapthagiri college
+    - CBO
+    - Chef Belief Officer
+    - who is Archana S Kumar
+    - tell about Archana Mam
+    - who is Archana mam
+    - details of CBO of sapthagiri
+    - Archana S Kumar
+    - Archana
+    - Archana mam
+
+- intent: NR_com
+  examples: |
+    - who is niranjan sir
+    - tell about niranjan sir
+    - info about niranjan sir
+    - more about niranjan sir
+    - details of niranjan sir
+    - give me information about niranjan sir
+    - Niranjan sir
+    - Niranjan
+
+- intent: MG
+  examples: |
+    - tell about management faculty in sapthagiri
+    - Management Faculty
+    - More about Management faculty
+    - information about management
+    - details about management
+    - management in sapthagiri
+    - sapthagiri management faculty                 
+
+- intent: IDA
+  examples: |
+    - IDA Award
+    - did sapthagiri won IDA Award
+    - ida 
+    - India Didactics Award
+    - India Didactics Award ida 
+    - ida award
+    - tell about ida award
+    - more about ida award
+    - ida award sapthagiri
+
+- intent: ADV
+  examples: |
+    - what is advance batch program
+    - advance batch
+    - tell about advance batch
+    - advance batch program
+    - advance
+    - more about advance batch
+    - info about advance batch
+    - why is advance batch made in sapthagiri
+    - advance batch in sapthagiri
+
+- intent: ET
+  examples: |
+    - Expert Talks
+    - Expert Talks in sapthagiri
+    - does Expert come to talk in sapthagiri
+    - what is Expert Talks
+    - tell about Expert Talks
+    - more about Expert Talks
+    - Experts
+    - Experts talk 
+
+- intent: AT
+  examples: |
+    - Alumni Talks
+    - does sapthagiri offer Alumni Talks
+    - Alumni
+    - Alumni Talks in sapthagiri
+    - sapthagiri Alumni Talks
+    - tell about Alumni Talks
+    - more about Alumni Talks
+    - what is Alumni Talks
+    - Alumni Talks at sapthagiri
+    - information about Alumni Talks 
+
+- intent: top
+  examples: |
+    - list of toppers in sapthagiri
+    - toppers of sapthagiri
+    - Toppers in Sapthagiri
+    - Toppers of Sapthagiri 
+    - Jee toppers
+    - NEET toppers
+    - KCET toppers
+    - State Toppers from sapthagiri
+    - toppers at sapthagiri
+    - who are the toppers of sapthagiri
+    - toppers list  
+
+- intent: SG
+  examples: |
+    - tell about SG mam
+    - more about SG mam
+    - Who is Shaziya Banu
+    - more about Shaziya Banu   
+    - information about Shaziya Banu mam
+    - Shaziya Banu
+    - Shaziya mam
+    - details Shaziya mam
+    - SG mam
+    - info about SG mam
+    - details of SG mam 
+
+- intent: AN
+  examples: |
+    - tell about Anil kumar y n 
+    - who is Anil kumar
+    - more about Anil kumar
+    - information about Anil kumar
+    - Anil kumar Sir
+    - details about Anil kumar
+    - info about Anil sir
+    - more about Anil sir
+    - who is Anil 
+    - Anil kumar Y N 
+
+- intent: SN
+  examples: |
+    - who is Sangeetha Mam
+    - tell about Sangeetha Mam
+    - more about Sangeetha Mam
+    - Sangeetha Mam
+    - Sangeetha 
+    - Sangeetha Mam Statistics
+    - details about Sangeetha Mam 
+    - information about Sangeetha Mam
+    - Sangeetha N 
+
+- intent: PR
+  examples: |
+    - who is PR mam
+    - more about PR mam
+    - details about Padmashree Mam
+    - Padmashree Mam 
+    - more about Padmashree Mam
+    - who is Padmashree Mam
+    - information about Padmashree Mam
+    - Padmashree
+
+- intent: amo
+  examples: |
+    - what is the fees for PCMC
+    - tell me how much is the fees for PCMB
+    - how much is the fees for PCME
+    - fees for SEBA
+    - fees for CEBA
+    - amount to take admission for SMBA
+    - what is the fees for SCBA
+    - give me information about the fees
+    - give me the fees information for the courses
+    - how much amount does sapthagiri take for admission
+
+- intent: dev
+  examples: |
+    - tell about developers
+    - who developed you
+    - who made you ?
+    - developers
+    - developers of this chatbot
+    - developers of this website
+    - who are the makers you
+    - who are the developers of you
+    - tahir
+    - rafi
+    - kiran
+    - hema sai

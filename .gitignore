@@ -1,0 +1,36 @@
+# Python virtual environment / Conda environment
+/conda-meta/
+/DLLs/
+/etc/
+/include/
+/Lib/
+/Library/
+/libs/
+/Scripts/
+/share/
+/tcl/
+/Tools/
+.nonadmin
+*.dll
+*.exe
+*.pdb
+*.pyd
+*.ico
+LICENSE.txt
+LICENSE_PYTHON.txt
+*.log
+
+# Rasa specific
+models/
+.rasa/
+results/
+*.db
+credentials.yml
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# OS specific
+.DS_Store
+Thumbs.db

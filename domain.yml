@@ -1,0 +1,385 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - about_sap
+  - about_courses
+  - about_sciencecourses 
+  - about_commercecourses
+  - location
+  - praise
+  - events
+  - STEM
+  - Robotic
+  - Environment
+  - Techno
+  - Ankura
+  - Namdesi
+  - SAP
+  - TED-ED
+  - BOCS
+  - BCPD
+  - Industrial
+  - Bank
+  - Deepavali
+  - Kurukshetra
+  - SEPME
+  - Tally
+  - Special
+  - faculty
+  - scifaculty
+  - comfaculty
+  - adminfaculty
+  - langfaculty
+  - extrafacility
+  - JD
+  - CS
+  - HR
+  - NR
+  - NK
+  - NS
+  - MAG
+  - GR
+  - SM
+  - HS
+  - HKS
+  - BHP
+  - HES
+  - DS
+  - PMN
+  - MCA
+  - SPR
+  - JS
+  - BTM
+  - AS
+  - CB
+  - SIT
+  - HMP
+  - DVP
+  - RJ
+  - VK
+  - TK
+  - TVS
+  - HRc
+  - HR_com
+  - HGS
+  - LT
+  - HRs
+  - JJ
+  - RK
+  - HCN
+  - MM
+  - DJ
+  - random
+  - how_u
+  - founder
+  - hem_com
+  - Dru
+  - DSK
+  - PRK
+  - NRP
+  - CEO
+  - CBO
+  - NR_com
+  - MG
+  - IDA
+  - ADV
+  - ET
+  - AT
+  - top
+  - SG
+  - AN
+  - SN
+  - PR
+  - amo
+  - dev
+
+responses:
+  utter_greet:
+  - text: "Hello! Welcome to Sri Sapthagiri Pre-University College Chatbot. How can I assist you today? Feel free to ask me about courses, faculty, events, and more."
+
+  utter_goodbye:
+  - text: "Goodbye! If you ever need more information or assistance, don't hesitate to reach out. Have a wonderful day!"
+
+  utter_iamabot:
+  - text: "I am the official Sri Sapthagiri Pre-University College Chatbot, designed to provide information and assistance about the college. I was created using advanced AI technology by Computer-Science Students under the guidance of Computer-Science faculty. I was created to enhance the experience of students and anyone interested about the College. My purpose is to provide quick and accurate information about courses, faculty, events, and other aspects of college life."
+  
+  utter_about_sap:
+  - text: "Sri Sapthagiri Pre University College, nestled in the heart of Tumkur, India, is where commerce and science students embark on a journey of knowledge and growth. \n But here, it's not just about textbooks and classrooms; it's about unleashing potential. Our college is alive with events and activities that add vibrancy to campus life. We believe in nurturing more than just academic brilliance; we encourage students to discover their passions, collaborate with peers, and have fun along the way.\n What sets us apart is our commitment to preparing students for success beyond the classroom. With coaching for competitive exams, we're shaping the future leaders, thinkers, and innovators.\n \n At Sri Sapthagiri, we EDUCATE, INNOVATE, and INSPIRE. It's not just education; it's an adventure of endless possibilities."
+  
+  utter_about_courses:
+  - text: "At Sapthagiri, we primarily offer two main courses: \n1. Science-\nOur Science program is designed to provide a solid foundation in various scientific disciplines, preparing students for exciting careers in fields such as biology, chemistry, physics, and more.\nWe offer three exciting substreams to choose from:\n1. PCMB (Physics, Chemistry, Mathematics, Biology)\n2. PCMC (Physics, Chemistry, Mathematics, Computer Science)\n3. PCME (Physics, Chemistry, Mathematics, Electronics)\n \n2. Commerce -\nOn the other hand, our Commerce program focuses on equipping students with the knowledge and skills needed for successful careers in business, finance, accounting, and related areas.\nWe offer four exciting substreams to choose from:\n1. SMBA (Statistics, Mathematics, Business Studies, Accountancy)\n2. SEBA (Statistics, Economics, Business Studies, Accountancy)\n3. CEBA (Computer Science, Economics, Business Studies, Accountancy)\n4. SCBA (Statistics, Computer Science, Business Studies, Accountancy)\n \nFeel free to ask for more details about any of these substreams, and I'll be happy to provide further information!"
+
+  utter_about_sciencecourses:
+  - text: "When it comes to the Science course at Sapthagiri, we offer three exciting substreams to choose from:\n1. PCMB (Physics, Chemistry, Mathematics, Biology):\nThis substream is perfect for those interested in life sciences, medicine, or biological research. You'll delve into subjects like biology, chemistry, physics, and mathematics, preparing you for various opportunities in the field of life sciences.\n2. PCMC (Physics, Chemistry, Mathematics, Computer Science):\nIf you're passionate about technology and computer science, the PCMC substream might be your ideal choice. You'll study core science subjects alongside computer science, setting the stage for a career in software development, data analysis, or IT.\n3. PCME (Physics, Chemistry, Mathematics, Electronics):\nThe PCME substream focuses on electronics and its applications. If you're curious about circuits, electronics, and engineering, this substream will provide you with a strong foundation for careers in electronics, telecommunications, and related fields."
+
+  utter_about_commercecourses:
+  - text: "When it comes to the Commerce course at Sapthagiri, we offer several intriguing substreams that cater to different interests and career paths:\n1. SMBA (Statistics, Mathematics, Business Studies, Accountancy):\n This substream combines essential business subjects with a focus on statistics and mathematics. It's an excellent choice for those who are interested in business analysis, financial planning, or working with data in a business context.\n2. SEBA (Statistics, Economics, Business Studies, Accountancy):\n The SEBA substream incorporates economics along with business studies and accountancy. If you're intrigued by the economic aspects of business decisions and trends, this substream might be the right fit for you.\n3. CEBA (Computer Science, Economics, Business Studies, Accountancy):\n For students who want to blend their interest in computer science with commerce, the CEBA substream is a great option. You'll gain knowledge in both fields, opening doors to careers at the intersection of technology and business.\n4. SCBA (Statistics, Computer Science, Business Studies, Accountancy):\n If you're drawn to both statistics and computer science, the SCBA substream offers a combination of these along with business studies and accountancy.This mix could lead to roles involving data analysis, business systems, and more."
+
+  utter_location:
+  - text: "Sapthagiri College is situated in Jayanagara South, Tumkur District, Karnataka. You can find its exact location on Google Maps through this link: [here](https://goo.gl/maps/ry5N4b8feJWKYHpT7). Feel free to explore the map for directions and more details. If you have any more questions, I'm here to help!"
+
+  utter_praise:
+  - text: "I'm glad I could be of assistance! Your feedback means a lot to me. If you have more questions or need guidance in the future, feel free to reach out. Have a great day!"
+
+  utter_events:
+  - text: "Sure, I'd be happy to tell you about the events at Sri Sapthagiri Pre-University College! We have a vibrant lineup of events in both science and commerce domains.\n In the field of science, we offer the following events:\n1. STEM Expo:A showcase of innovative projects and ideas in the fields of science, technology, engineering, and mathematics.\n2. SAP-1&2: SAP stands for Sapthagiri Advanced Programming. It's an exciting event at our college where students are given the opportunity to demonstrate their advanced programming skills.  \n3. Robotic Workshop: Hands-on workshops where students can learn about robotics and explore their creative potential.\n4. Environment Day: A day dedicated to raising awareness about environmental issues and promoting sustainable practices.\n5. Technothlon: An exciting competition that challenges students' problem-solving and critical thinking skills.\n6. Ankura:The Ankura event is a special occasion at our college that serves as both a freshers' party for newcomers and a felicitation for the passed-out batch \n7. Namdesi: An event that celebrates indigenous knowledge and traditions, fostering cultural exchange.\n8. TED-ED Talks: Inspirational talks by students and experts on a wide range of topics.\n \nIn the commerce domain, we have these events:\n1. BOCS (Basics of Computer Software): Workshops and sessions to enhance students' understanding of computer software fundamentals.\n2. BCPD (Business Communication and Personality Development): Training to improve students' communication and personal skills.\n3. Industrial Visit: Educational visits to industries to provide real-world insights into business operations.\n4. Bank Visit: Experiences that offer insights into banking processes and financial systems.\n5. Deepavali Mela: In Deepawali Mela students are provided a platform where they can improve their marketing skills and business strategies . \n6. Kurukshetra: A platform for commerce students to compete in various business-related competitions.\n7. SAP-1&2: SAP stands for Sapthagiri Advanced Programming. It's an exciting event at our college where students are given the opportunity to demonstrate their advanced programming skills.\n8. Technothlon: An exciting competition that challenges students' problem-solving and critical thinking skills.\n9. Ankura: The Ankura event is a special occasion at our college that serves as both a freshers' party for newcomers and a felicitation for the passed-out batch. \n10. Namdesi: An event that celebrates indigenous knowledge and traditions, fostering cultural exchange.\n11. TED-ED Talks: Inspirational talks about a wide range of topics.\n12. SEPME: SEPME stands for Sapthagiri Experiential Programming For Management And Entrepreneurship.This event is designed to provide students with a hands-on experience in the fields of management and entrepreneurship.  \n13. Tally: Training sessions to enhance students' proficiency in using Tally software for accounting.\n\nFeel free to ask for more details about any specific event you're interested in!"
+
+  utter_STEM:
+  - text: "IMG_URL: https://i.ibb.co/KFmRGrj/stem-expo.jpg \n Absolutely! The STEM Expo at Sri Sapthagiri Pre-University College is an exciting event where science students from various departments, including Physics, Chemistry, Mathematics, Biology, Computer-Science and Electronics, come together to showcase their innovative projects. It's a platform for students to demonstrate their creative ideas and solutions, fostering a spirit of curiosity and exploration.\nDuring the STEM Expo, you can expect to see a wide range of projects that span different scientific disciplines. From cutting-edge research to practical applications, students present their work to their peers, teachers, and even external guests. This event not only highlights students' accomplishments but also promotes collaborative learning and the exchange of ideas.\nIf you're interested in the latest advancements in science and technology, the STEM Expo is an excellent opportunity to engage with the bright minds of our college and learn about the exciting projects they've been working on. Feel free to visit the expo to witness firsthand the incredible innovation and creativity that our science students bring to the table!"
+
+  utter_Robotic:
+  - text: "The Robotic Workshop at Sri Sapthagiri Pre-University College is an engaging event where students get hands-on experience with robotics and learn about the fascinating world of automation and technology.\nDuring the Robotic Workshop, participants are introduced to the basics of robotics, including concepts like sensors, actuators, programming, and more. Through interactive sessions and practical exercises, students have the opportunity to build and program their own robots, enhancing their problem-solving and teamwork skills.\nWhether you're a beginner curious about robotics or someone with prior knowledge, the workshop is designed to accommodate various skill levels. It's a great chance to explore the world of robotics, learn about cutting-edge technologies, and work collaboratively with fellow students.\nBy participating in the Robotic Workshop, you'll not only gain insights into the field of robotics but also develop valuable skills that are increasingly relevant in today's technological landscape. So, if you're intrigued by the idea of creating and controlling robots, the Robotic Workshop is the perfect event for you to dive into the exciting world of automation!"
+
+  utter_Environment:
+  - text: "IMG_URL: https://i.ibb.co/MSwMrpk/envi.png \n Environment Day at Sri Sapthagiri Pre-University College is a special occasion dedicated to raising awareness about environmental issues and promoting sustainable practices among our students and the community.\nDuring Environment Day, we come together to highlight the importance of environmental conservation and the role each of us can play in preserving our planet. The event usually features a variety of activities such as informative talks, interactive workshops, tree planting initiatives, clean-up drives, and more. It's a great opportunity to learn about eco-friendly habits, renewable energy, waste reduction, and the broader impact of our choices on the environment.\nBy participating in Environment Day, you'll not only gain valuable insights into environmental concerns but also contribute to a greener future. It's a chance to connect with like-minded individuals, share ideas, and become an advocate for positive change.\nRemember, even small actions can make a big difference. So, if you're passionate about safeguarding our planet and want to learn more about sustainable living, make sure to participate in our Environment Day event. Together, we can create a healthier and more sustainable world for generations to come!"
+
+  utter_Techno:
+  - text: "IMG_URL: https://i.ibb.co/3sQLQRs/technlothon.jpg \n Technothlon is an engaging exam organized by IIT Guwahati. It's a unique platform designed to challenge and inspire young minds in the fields of science and technology. The exam aims to foster analytical thinking, problem-solving skills, and creativity among students. Technothlon offers a range of exciting challenges and activities that test participants' knowledge and abilities. It's a fantastic opportunity for students to showcase their talents and expand their horizons in the world of science and technology. "
+
+  utter_Ankura:
+  - text: "IMG_URL: https://i.ibb.co/ZWSssRG/new-pic.jpg \n The Ankura event is a special occasion at our college that serves as both a freshers' party for newcomers and a felicitation for the passed-out batch. It's a wonderful opportunity for new students to get to know each other, interact with the faculty, and immerse themselves in the vibrant college community. At the same time, it's a time to celebrate the achievements of the previous batch as they move forward in their journey. The Ankura event is a memorable and joyous occasion that fosters a sense of belonging and camaraderie among students. "
+
+  utter_Namdesi:
+  - text: "IMG_URL: https://i.ibb.co/K6zsmqS/new-pic.jpg \n Namdesi is a captivating event that takes place right here at our college. It's a celebration of cultural diversity and heritage, where students come together to showcase the richness of various traditions, art forms, and cuisines from different parts of our country. Namdesi provides a platform for students to share their cultural pride, exchange experiences, and create lasting memories. It's an event that embraces unity in diversity and fosters a sense of belonging within our college community."
+
+  utter_SAP:
+  - text: "SAP stands for Sapthagiri Advanced Programming. It's an exciting event at our college where students are given the opportunity to demonstrate their advanced programming skills. The event includes exams and interviews that help assess participants' programming knowledge and abilities. It's a great platform for students to showcase their talents and challenge themselves in the field of programming. "
+
+  utter_TED-ED:
+  - text: "IMG_URL: https://i.ibb.co/3hK2NMG/Ted.png \n TED-Ed is an educational initiative associated with TED (Technology, Entertainment, Design), a global platform for sharing ideas and knowledge. TED-Ed aims to provide lessons and educational content in the form of short animated videos that cover a wide range of topics. These videos are designed to engage and educate learners of all ages by presenting complex ideas in an accessible and engaging manner. TED-Ed's mission is to spread knowledge and foster curiosity."
+
+  utter_BOCS:
+  - text: "IMG_URL: https://i.ibb.co/YLM00Xv/BOCS.jpg \n BOCS stands for Basics of Computer Software, an event that focuses on providing participants with fundamental insights into the world of software and its applications. Through workshops, presentations, and interactive sessions, BOCS aims to familiarize attendees with the essential concepts, tools, and techniques used in computer software development. It's a great opportunity for students to gain a foundational understanding of this field and explore the possibilities it offers."
+
+  utter_BCPD:
+  - text: "BCPD stands for Business Communication and Personality Development. It's a specialized training program designed to enhance students' communication skills and personal development. Through a combination of workshops, activities, and guidance, BCPD aims to help students improve their ability to communicate effectively in professional settings. Additionally, the program focuses on enhancing personal skills such as leadership, teamwork, and presentation. BCPD equips students with the essential attributes needed to excel in their future careers."
+
+  utter_Industrial:
+  - text: "IMG_URL: https://i.ibb.co/LNRgpp6/INDUSTRY-VISIT.jpg \n An industrial visit is a valuable opportunity for students to gain practical insights into real-world industries and businesses. It involves visiting companies, factories, or organizations related to their field of study. During these visits, students can observe how theories and concepts they've learned in the classroom are applied in real-life settings. Industrial visits provide a deeper understanding of industry operations, processes, and work environments. They also offer a chance to interact with professionals and ask questions."
+
+  utter_Bank:
+  - text: "IMG_URL: https://i.ibb.co/4tTHkwk/BANK-VISIT.png \n A bank visit is an educational experience offered by our college that provides students with insights into banking processes and financial systems. During a bank visit, students have the opportunity to observe firsthand how banks operate, learn about various financial services they offer, and understand the practical aspects of banking transactions. It's a valuable opportunity to bridge the gap between classroom learning and real-world applications in the financial sector."
+
+  utter_Deepavali:
+  - text: "IMG_URL: https://i.ibb.co/zfQ4Z2Y/new-yearmela.png \n The Deepavali Mela is an exciting event that offers students a platform to enhance their marketing skills and business strategies. During this event, students have the opportunity to showcase their entrepreneurial spirit by setting up stalls and engaging in various business activities. It's a festive atmosphere where participants can not only demonstrate their creativity but also learn important aspects of marketing, sales, and customer interaction. The Deepavali Mela is a valuable experience that combines practical business exposure with the joy of celebration."
+
+  utter_Kurukshetra:
+  - text: "IMG_URL: https://i.ibb.co/KNRSh5V/kurukshetra.jpg \n Kurukshetra is an exciting platform exclusively designed for commerce students to engage in a variety of business-related competitions. This event offers participants the chance to showcase their skills, knowledge, and innovative ideas in a competitive environment. Whether it's case studies, simulations, or presentations, Kurukshetra provides a space for students to apply their commerce expertise and business acumen. It's a wonderful opportunity for students to sharpen their problem-solving abilities, teamwork, and critical thinking."
+
+  utter_SEPME:
+  - text: "IMG_URL: https://i.ibb.co/Rvnnn7D/Slide1.jpg \n SEPME stands for Sapthagiri Experiential Programming For Management And Entrepreneurship. It's an event that focuses on providing students with practical insights into the fields of management and entrepreneurship. Through a combination of interactive sessions, workshops, and activities, SEPME aims to equip participants with valuable skills and knowledge related to effective management practices and entrepreneurship. It's a fantastic opportunity to learn from industry experts and experienced professionals, helping students to navigate the worlds of business and innovation. "
+
+  utter_Tally:
+  - text: "Tally is a widely used accounting software that helps businesses manage their financial transactions, track expenses, and generate various financial reports. At Sapthagiri, we offer Tally training to students as part of our curriculum. This training equips students with practical skills in using Tally for accounting and financial management tasks. It's a valuable skill for those aspiring to work in finance, accounting, or business management. "
+
+  utter_Special:
+  - text: "Sapthagiri College is special for several reasons:  \n \n \n IDA Awards: We take pride in our achievements, such as winning prestigious IDA awards, which reflect our commitment to academic excellence and innovation.\n \n \nTED-ED Partnership: Our collaboration with TED-ED fosters a culture of creativity and innovative thinking among our students. It provides them with a platform to express and explore groundbreaking ideas.\n \n \nExpert Talks: We invite experts from various domains to share their knowledge and insights with our students. This exposure broadens their horizons and equips them with a well-rounded education.\n \n \nThe Advanced Batch Program: Recognizing the importance of competitive exams in shaping students' futures, we offer a dedicated batch to support those aspiring to excel in these exams.\n \n \nAlumni Talks: Alumni talks at Sapthagiri College are a wonderful opportunity for our current students to gain insights from our accomplished alumni.  \n \n \nIn summary, Sapthagiri Pre University College stands out due to its commitment to excellence, innovation, knowledge-sharing, and comprehensive student development, making it a nurturing and empowering educational institution.\n If you'd like to know more about any specific aspect or have other questions, feel free to ask!"
+
+  utter_faculty:
+  - text: "IMG_URL: https://i.ibb.co/QrKZNJZ/Faculty.jpg \n Here is the information about the faculty at Sapthagiri College: \n \nScience\n \n Physics\n 1. Guruprasad M A [M.Sc,B.Ed]\n2. Niranjan T V [M.Sc,B.Ed]\n3. Govinda Raju [M.Sc,B.Ed]\n4. Shewtha M [M.Sc,B.Ed]\n5. Bhavyashree [M.Sc] \n \n Chemistry:\n1. Hanumantharaju M T [M.Sc,B.Ed,KSET]\n2. Shivamurthy H E [M.Sc,B.Ed]\n3. Pranesh Reddy B H [M.Sc]\n4. Anil Kumar Y R [M.Sc,B.Ed]\n5. Dhananjay N [M.Sc,B.Ed]\n6. Hemanth Kumar S [M.Sc,B.Ed]\n \n Mathematics:\n1. Chandrashekar H A [M.Sc,B.Ed]\n2. Jagadeesh N [M.Sc,B.Ed,KSET]\n3. Hemanth Kumar K S [M.Sc]\n4. Nagesh H C [M.Sc,D.Ed]\n5. Mahantesh M [M.Sc,Phd]\n6. Drushadwathi [M.Sc] \n \n Biology:\n1. Nagashree S [M.Sc,B.Ed,KSET,TET,Bio-Informatics Diploma]\n2. Anitha M C[M.Sc,B.Ed,KSET,TET]\n3. Padmini N [M.Sc,B.Ed]\n4. Divya S [M.Sc,B.Ed]\n5. Shaziya Banu [M.Sc] \n \n Computer Science:\n1. Prabharani S [MCA]\n2. Jeelan [BE,M.Tech]\n \n Electronics:\n1. Keerthi N [M.Sc,M.Tech]\n \nCommerce\n \n Economics:\n1. Vanitha K [MA,B.Ed,PGDHRM]\n2. Ramesh H T [MA,B.Ed]\n \n Business Studies:\n1. Tarin Khanum S [M.Com,B.Ed]\n2. Surendra T V [MBA]\n \n Accountancy: \n1. Sindhoor H G [M.Com,B.Ed]\n2. Rathan S P [M.Com]\n \n Statistics:\n 1. Surendra T V [MBA]\n2. Sangeetha N S [MBA]\n \n Computer Science:\n1. Prabharani S [MCA]\n2. Jeelan [BE,M.Tech]\n \n Basic Maths:\n1. Lavanya [M.Sc,B.Ed]  \n \n Administrative Staff:\n1. L Mohan Rengan [Admin]\n2. Ramesh L G [Acountant]\n3. Vasantha M S [Finance Manager]\n3. Rudresh H C [Facility Manager]\n4. A B Nanjundappa\n3. Raghuvardhan\n5. Pavan T C [IT Administrator]\n6. Vijayalakshmi [Typis/Librarian]\n7. Veena S[Typist]  \n \n  Please let me know if you'd like more details about any specific faculty member or have other questions!"
+
+  utter_scifaculty:
+  - text: "Here is the information about Science faculty at Sapthagiri College:\n Physics\n 1. Guruprasad M A [M.Sc,B.Ed]\n2. Niranjan T V [M.Sc,B.Ed]\n3. Govinda Raju [M.Sc,B.Ed]\n4. Shewtha M [M.Sc,B.Ed]\n5. Bhavyashree [M.Sc] \n \n Chemistry:\n1. Hanumantharaju M.T [M.Sc,B.Ed,KSET]\n2. Shivamurthy H E [M.Sc,B.Ed]\n3. Pranesh Reddy B H [M.Sc]\n4. Anil Kumar Y R [M.Sc,B.Ed]\n5. Dhananjay N [M.Sc,B.Ed]\n6. Hemanth Kumar S [M.Sc,B.Ed]\n \n Mathematics:\n1. Chandrashekar H A [M.Sc,B.Ed]\n2. Jagadeesh N [M.Sc,B.Ed,KSET]\n3. Hemanth Kumar K S [M.Sc]\n4. Nagesh H C [M.Sc,D.Ed]\n5. Mahantesh M [M.Sc,Phd]\n6. Drushadwathi [M.Sc] \n \n Biology:\n1. Nagashree S [M.Sc,B.Ed,KSET,TET,Bio-Informatics Diploma]\n2. Anitha M C[M.Sc,B.Ed,KSET,TET]\n3. Padmini N [M.Sc,B.Ed]\n4. Divya S [M.Sc,B.Ed]\n5. Shaziya Banu [M.Sc] \n \n Computer Science:\n1. Prabharani S [MCA]\n2. Jeelan [BE,M.Tech]\n \n Electronics:\n1. Keerthi N [M.Sc,M.Tech]"
+
+  utter_comfaculty:
+  - text: "Here is the information about Commerce faculty at Sapthagiri College:\n Economics:\n1. Vanitha K [MA,B.Ed,PGDHRM]\n2. Ramesh H T [MA,B.Ed]\n \n Business Studies:\n1. Tarin Khanum S [M.Com,B.Ed]\n2. Surendra T V [MBA]\n \n Accountancy: \n1. Sindhoor H.G [M.Com,B.Ed]\n2. Rathan S P [M.Com]\n \n Statistics:\n 1. Surendra T V [MBA]\n2. Sangeetha N S [MBA]\n \n Computer Science:\n1. Prabharani S [MCA]\n2. Jeelan [BE,M.Tech]\n \n Basic Maths:\n1. Lavanya [M.Sc,B.Ed]"
+
+  utter_adminfaculty:
+  - text: "Here is the information about Administrative faculty at Sapthagiri College:\n1. L Mohan Rengan [Admin]\n2. Ramesh L G [Acountant]\n3. Vasantha M S [Finance Manager]\n3. Rudresh H C [Facility Manager]\n4. A B Nanjundappa\n3. Raghuvardhan\n5. Pavan T C [IT Administrator]\n6. Vijayalakshmi [Typis/Librarian]\n7. Veena S[Typist]"
+
+  utter_langfaculty:
+  - text: "Here is the information about language faculty at Sapthagiri College: \n \nKannada\n1. Poornima D V [M.A,PG Diploma in English,UGC-NET]\n2. Prakash H M [M.A,B.Ed]\n3. Hemanth Kumar K G [M.a,B.Ed] \n \nEnglish:\n1. Chennappa Barigidad [M.A]\n2. Shrinath[M.A]\n3. Mamatha B T [M.A,PGDCE] \n \nHindi\n1. Syeda Irfana Tabassum [M.A,M.Phil,PhD] \n \nSanskrit:\n1. Hanumantharayappa G [M.A] "
+
+  utter_extrafacility:
+  - text: "Sure, our college offers a wide range of extra facilities to enhance the overall learning and student experience. Some of the key extra facilities include: \n \n1. Library: Our library is well-stocked with a vast collection of books, journals, and digital resources. It's a great place for research and quiet study.\n2. Labs: We have state-of-the-art computer labs equipped with the latest software and hardware for various academic and research purposes. Our college also has specialised labs in physics, biology, and chemistry, providing students with hands-on experience and essential tools for experiments and research in these fields\n3. Cafeteria and Dining: We have a spacious cafeteria that serves a variety of delicious and affordable food options, catering to different dietary preferences.\n4. Student Housing: On-campus housing is available for students who prefer to stay on campus. Our dormitories are comfortable and provide a supportive community environment.\n5. Health Services: We have a health center on campus to provide basic medical care and support for students.\n6. Transportation: Shuttle services or easy access to public transportation is available for commuting to and from campus.\n7. Cultural Events and Festivals: Our college hosts cultural events, festivals, and guest lectures to enrich the cultural and intellectual experience of students.\n \n These are just some of the extra facilities we offer to our students. If you have specific questions about any of these facilities or would like more information about a particular aspect, feel free to ask!"
+  
+  utter_JD:
+  - text: "IMG_URL: https://i.ibb.co/bJS5Np1/In-Shot-20230912-224211062.jpg  \n Mr. Jagdeesh is a highly qualified math lecturer here at our college. He holds an M. Sc degree, is a B. Ed graduate, and has passed the KSET exam. Besides his impressive qualifications, he is also known for being a very friendly and approachable teacher. Students often find his teaching style engaging and helpful."
+
+  utter_CS:
+  - text: "IMG_URL: https://i.ibb.co/BLdcmFf/In-Shot-20230912-224359366.jpg  \n Mr. Chandrashekar H A is not only a dedicated math lecturer at our college but also holds the esteemed position of Head of the Department of Mathematics. He possesses an M. Sc degree along with a B. Ed qualification. In addition to his academic credentials, Mr. Chandrashekar is widely recognized for his wisdom and extensive experience in various aspects of education and mathematics. His leadership in the department greatly contributes to the overall academic excellence of our institution"
+
+  utter_HR:
+  - text: "IMG_URL: https://i.ibb.co/q76bSN5/HR-Copy-edited.jpg \n Mr. Hanumantharaju M T is an exceptional lecturer in the field of chemistry at our college. His qualifications include an M. Sc degree, a B. Ed certification, and KSET qualifications, reflecting his strong academic foundation. What truly sets Mr. Hanumantharaju apart is his engaging and humorous teaching style, which not only educates but also entertains his students. His friendly nature adds to the warmth of the classroom environment, making him a beloved figure among both students and colleagues"
+
+  utter_NR:
+  - text: "IMG_URL: https://i.ibb.co/q1M0qpQ/In-Shot-20230912-224544670.jpg  \n Mr. Niranjan T V is a highly accomplished individual at our college. He possesses an M. Sc and B. Ed degree, which underscores his strong academic background. Mr. Niranjan is known for his exceptional multitasking abilities, as he efficiently manages various responsibilities within the college. Additionally, he enjoys great popularity among our students, and his role as a physics lecturer contributes significantly to their learning experience."
+
+  utter_NK:
+  - text: "IMG_URL: https://i.ibb.co/PjVSLny/NK-edited.jpg \n Mr. N. Keerthi is an exceptional member of our college community. Holding both M. Sc and M. Tech degrees, he possesses a strong academic foundation. Beyond his impressive qualifications, Mr. Keerthi serves as the Head of the Department of Electronics, where he is also the sole lecturer in the field at present. His remarkable ability to efficiently manage various responsibilities is commendable. Widely recognized and appreciated by students, his popularity extends not only to electronics students but also to those from other disciplines. While his primary role is as a lecturer in electronics, his extensive knowledge in physics further enriches his teaching expertise, benefiting all his students"
+
+  utter_NS:
+  - text: "IMG_URL: https://i.ibb.co/QXFq2Fv/NS-edited.jpg \n Ms. Nagashree S is an accomplished lecturer at our college. She holds an impressive array of qualifications, including an M. Sc degree, B. Ed certification, KSET and TET qualifications, and even a Diploma in Bio-Informatics. Her extensive educational background is matched by her outstanding teaching skills. Ms. Nagashree is well-known for her friendly and calm demeanor in the classroom, which creates a positive and conducive learning environment for her students."
+
+  utter_MAG:
+  - text: "IMG_URL: https://i.ibb.co/T0Ff4RD/MAG-edited.jpg \n Mr. M A Guruprasad is a highly respected figure in our college community. With an M. Sc degree and a B. Ed qualification, he brings a strong academic background to his role as a physics lecturer. Moreover, Mr. Guruprasad holds the esteemed positions of Head of the Department of Physics and Vice Principal of the college, reflecting his dedication and leadership. His calm and wise demeanor, along with his simplicity, make him a beloved figure among both students and staff."
+
+  utter_GR:
+  - text: "IMG_URL: https://i.ibb.co/02czN1X/In-Shot-20230912-224720018.jpg  \n Mr. Govinda Raju is a highly esteemed member of our teaching faculty. His educational background includes an M. Sc degree and B. Ed certification, which highlight his strong academic foundation. As a physics lecturer, he is known for his exceptional teaching skills. Mr. Govinda Raju's calm and efficient teaching style creates a conducive learning environment that students greatly appreciate. His dedication and expertise make him a valuable asset to our college."
+
+  utter_SM:
+  - text: "IMG_URL: https://i.ibb.co/h7LccZc/SM-edited.jpg \n Ms. Shwetha M is an outstanding physics lecturer at our college. With her qualifications, including an M. Sc degree and B. Ed certification, she brings a strong academic background to her role. Ms. Shwetha is known for her exceptional teaching skills and dedication to providing quality physics education. Her contributions to our institution benefit both students and staff members alike, making her a valuable and respected member of our college community."
+
+  utter_HS:
+  - text: "Mr. Hemanth Kumar K S is a dedicated mathematics lecturer at our college. With an M. Sc degree and additional knowledge in electronic engineering, he brings a unique perspective to his teaching. Mr. Hemanth Kumar is known for his simple and effective teaching style, which resonates well with students. His interdisciplinary background enriches the learning experience for those studying mathematics."
+
+  utter_HKS:
+  - text: "IMG_URL: https://i.ibb.co/qsHzW06/In-Shot-20230912-224242472.jpg  \n Mr. Hemanth Kumar S is a dedicated member of our college faculty. Holding both M. Sc and B. Ed qualifications, he brings a strong academic background to his role as a chemistry lecturer. His commitment to providing quality education is highly commendable. Mr. Hemanth Kumar's contributions enrich the learning experience of our students, making him a valued member of our academic community."
+
+  utter_BHP:
+  - text: "IMG_URL: https://i.ibb.co/cr5tsst/In-Shot-20230912-224113861.jpg  \n Mr. Pranesh Reddy B H is a distinguished senior lecturer in our college. His extensive knowledge in chemistry and wealth of experience make him a valuable asset to our academic community. With his expertise, he significantly contributes to the depth and quality of education provided to our students, enhancing their understanding of the subject matter."
+
+  utter_HES:
+  - text: "IMG_URL: https://i.ibb.co/XYcy6TZ/HES-edited.jpg \n Mr. Shivamurthi H E is a respected and influential figure in our college community. With qualifications including an M. Sc degree and B. Ed certification, he possesses a strong academic background. As the Head of the Department of Chemistry, he plays a crucial role in guiding the department's academic endeavors. Mr. Shivamurthi's expertise and leadership contribute significantly to the excellence of our chemistry program, benefiting both students and staff members alike."
+
+  utter_DS:
+  - text: "IMG_URL: https://i.ibb.co/pd2VLxt/DS-edited.jpg \n Ms Divya S is a valuable member of our college faculty. Her educational background, which includes an M. Sc degree and B. Ed certification, underscores her strong academic foundation. As an educator, she brings her expertise to the classroom, contributing to the academic growth and development of our students"
+
+  utter_PMN:
+  - text: "IMG_URL: https://i.ibb.co/b52YH02/PMN-edited.jpg \n Ms Padmini N is a dedicated biology lecturer at our college. With her educational qualifications, which include an M. Sc degree and B. Ed certification, she possesses a strong academic foundation. Her commitment to providing quality biology education is highly commendable. Miss Padmini plays a vital role in shaping the understanding and knowledge of our students in the field of biology"
+
+  utter_MCA:
+  - text: "IMG_URL: https://i.ibb.co/02tRW39/MCA-edited.jpg \n Miss Anitha M C is a dedicated biology lecturer at our college. Her educational qualifications, which include an M. Sc degree and B. Ed certification, underline her strong academic foundation. Additionally, she has successfully qualified both TET and KSET exams, demonstrating her commitment to excellence in education. Miss Anitha's expertise and dedication contribute significantly to the depth and quality of biology education provided to our students."
+
+  utter_SPR:
+  - text: "IMG_URL: https://i.ibb.co/djythpW/In-Shot-20230912-224523541.jpg  \n Ms. S Prabharani is a distinguished member of our college community. With her MCA degree, she possesses a strong foundation in computer science. As the Head of the Department of Computer Science, she plays a pivotal role in shaping the academic direction of our institution. Ms. Prabharani's extensive knowledge, coupled with her multitasking abilities, allows her to excel not only in academics but also in managing various other responsibilities within the college. Her friendly and approachable nature makes her a beloved figure among both students and staff members."
+
+  utter_JS:
+  - text: "IMG_URL: https://i.ibb.co/wCcs2HX/In-Shot-20230912-224455901.jpg  \n Mr. Jeelan is a highly qualified individual who serves as a lecturer in the computer science department. With both BE and M. Tech degrees, he brings a strong educational foundation to his role. His expertise and dedication significantly contribute to the academic excellence of our computer science program, benefiting our students and our institution as a whole." 
+
+  utter_BTM:
+  - text: "IMG_URL: https://i.ibb.co/6sy7sXY/In-Shot-20230912-224342213.jpg  \n Ms. Mamtha BT is an esteemed member of our college community. She not only serves as a dedicated lecturer in English but also holds the esteemed position of Head of the Department. Ms. Mamtha is known for her friendly and approachable nature, which creates a positive and welcoming atmosphere in the classroom. Her simple and effective teaching style benefits students, and her wealth of experience adds depth to her lessons, making her a cherished and respected member of our academic staff."
+
+  utter_AS:
+  - text: "IMG_URL: https://i.ibb.co/LNvbFRk/AS-edited.jpg \n Mr. Shrinath is a highly respected and senior lecturer in the English department. With his wealth of experience, he brings a depth of knowledge and expertise to his role. His extensive teaching experience has made him a valuable mentor to many students over the years. Mr. Shrinath's dedication to his subject and his students has made him a cherished and respected member of our academic community."
+
+  utter_CB:
+  - text: "IMG_URL: https://i.ibb.co/4FMWw2d/CB-edited.jpg \n Mr. Chennappa Barigidad is a distinguished and highly experienced senior lecturer at our college. Despite holding an M A degree, his extensive experience and commitment to education set him apart. Additionally, he serves as the Education Officer of our college, playing a crucial role in overseeing educational matters. Mr. Chennappa's wealth of knowledge and dedication to his profession make him an invaluable asset to our institution."
+
+  utter_SIT:
+  - text: "IMG_URL: https://i.ibb.co/9GS9305/sit-edited.jpg \n Ms. Syeda Irfana Tabassum is an exceptional educator with a strong academic background, holding degrees including M A, M. Phil, and a Ph. D. Her qualifications are a testament to her dedication to academic excellence. As the Head of the Department and the sole lecturer in Hindi at present, Ms. Tabassum plays a pivotal role in shaping the Hindi language and literature program at our college. Her extensive experience, combined with her commitment to teaching, benefits students immensely, making her an invaluable member of our academic community"
+
+  utter_HMP:
+  - text: "IMG_URL: https://i.ibb.co/z7QmXjq/In-Shot-20230912-224626525.jpg  \n Mr. Prakash H M is a dedicated educator at our college, specializing in Kannada. With his qualifications, including an M. A degree and B. Ed certification, he brings a strong academic background to his role as a lecturer. Mr. Prakash's commitment to providing quality education in Kannada greatly benefits our students, contributing to their academic growth and understanding of the subject."
+
+  utter_DVP:
+  - text: "IMG_URL: https://i.ibb.co/4Y5GF4w/In-Shot-20230912-224422346.jpg  \n Ms. Poornima D V is a highly knowledgeable and wise educator at our college. With her impressive qualifications, including an M A degree, PG Diploma in English, and UGC-NET qualification, she possesses a strong academic foundation. Ms. Poornima's commitment to education is further exemplified by her role as the Head of the Department of Kannada, where she plays a pivotal role in guiding the academic direction of the department. Her expertise and leadership greatly enhance the learning experience for our students and contribute to the overall excellence of our college"
+
+  utter_RJ:
+  - text: "IMG_URL: https://i.ibb.co/YtwqDRY/RJ-edited.jpg \n Mr. Rathan S P is a dedicated lecturer in Accountancy at our college. With his M. Com degree, he brings a strong academic background to his role. Moreover, his friendly and approachable nature fosters a positive and welcoming atmosphere in the classroom. Mr. Rathan's commitment to education and his amiable demeanor greatly benefit both students and staff members alike."
+
+  utter_VK:
+  - text: "IMG_URL: https://i.ibb.co/ykRZPLb/In-Shot-20230912-224734832.jpg  \n Ms. Vanitha K is a highly accomplished and versatile educator with a strong academic background, including degrees like M. A, B. Ed, and PGDHRM. In addition to her teaching role as a lecturer in Economics, she holds the prestigious position of Head of the Department in Economics. Ms. Vanitha's friendly and approachable nature fosters a positive and welcoming atmosphere for both students and staff. Her dedication and leadership contribute significantly to the academic excellence of our Economics department and our college as a whole."
+
+  utter_TK:
+  - text: "IMG_URL: https://i.ibb.co/yB2RVqJ/In-Shot-20230912-224645607.jpg  \n Ms. Tarin Khanam S is a dedicated and accomplished lecturer in Business Studies at our college. With her qualifications, which include an M. Com degree and B. Ed certification, she possesses a strong academic foundation. Ms. Tarin is currently the only lecturer in the Business Studies department, where she plays a pivotal role in shaping the academic direction of the program. Her expertise and commitment to education greatly benefit our students, making her a valuable member of our academic community."
+
+  utter_TVS:
+  - text: "IMG_URL: https://i.ibb.co/LkfVVfY/In-Shot-20230912-224852648.jpg  \n Mr. Surendra T V is a highly knowledgeable and accomplished educator at our college. With an MBA degree and expertise in the field of Statistics, he brings a strong academic background to his role. Mr. Surendra serves as both a lecturer in Statistics and the Head of the Department, playing a pivotal role in guiding the academic direction of the department. His dedication and depth of knowledge contribute significantly to the academic excellence of our college."
+
+  utter_HRc:
+  - text: "IMG_URL: https://i.ibb.co/gvZNCRH/In-Shot-20230912-224701705.jpg  \n Mr. Ramesh H T is a dedicated lecturer in economics at our college. With qualifications including an M. A degree and B. Ed certification, he brings a strong academic foundation to his role. Mr. Ramesh's expertise enriches the learning experience for our students in the field of economics, contributing to their academic growth and understanding of the subject."
+
+  utter_HR_com:
+  - text: "Sure, we have multiple teachers with the title 'HR sir.' Could you please specify which HR sir you are referring to? You can mention their subject or full name to help me assist you better."
+
+  utter_HGS:
+  - text: "IMG_URL: https://i.ibb.co/55PGfqm/HGS-edited.jpg \n Mr. Sindhoor H G is a highly accomplished lecturer in accountancy at our college. With qualifications that include an M. Com degree and B. Ed certification, he possesses a strong academic foundation. Mr. Sindhoor also holds the esteemed position of Head of the Department in accountancy, where he plays a pivotal role in guiding the academic direction of the department. His expertise, leadership, and commitment to education make him a valuable asset to our college community."
+
+  utter_LT:
+  - text: "IMG_URL: https://i.ibb.co/7Rq6jw5/LT-edited.jpg \n Ms. Lavanya is a highly accomplished and multi-faceted educator at our college. With qualifications that include an M. Sc degree and B. Ed certification, she brings a strong academic foundation to her role as a lecturer in Basic Mathematics. Additionally, Ms. Lavanya holds the prestigious position of Head of the Department, where she plays a vital role in guiding the academic direction of the department. Her commitment to providing quality education, both as an educator and as a departmental leader, greatly benefits our students and our institution as a whole."
+
+  utter_HRs:
+  - text: "IMG_URL: https://i.ibb.co/dgfKVLw/HRs-edited.jpg \n Mr. Hanumantharayappa G is a highly respected senior lecturer in Sanskrit at our college. With his M. A degree and extensive knowledge in the field, he brings a profound understanding of Sanskrit to his role. Mr. Hanumantharayappa is widely recognized for his wisdom and commitment to the subject, making him a valuable mentor to our students. His expertise greatly enriches the learning experience in Sanskrit, and his presence is an asset to our academic community."
+
+  utter_JJ:
+  - text: "IMG_URL: https://i.ibb.co/56S1JNc/JJ-edited.jpg \n Ms. Jyothi Rani is a dedicated educator in the field of Kannada at our college. With her qualifications, which include an M. A degree and B. Ed certification, she possesses a strong academic foundation. Ms. Jyothi's commitment to providing quality education in Kannada is commendable, contributing to the academic growth and understanding of our students"
+
+  utter_RK:
+  - text: "Ms. Rajni K is a dedicated and accomplished educator in the field of English at our college. Her commitment to providing quality education in English literature and language is commendable. Ms. Rajni's expertise and passion for the subject greatly benefit our students, contributing to their academic growth and proficiency in English."
+
+  utter_HCN:
+  - text: "IMG_URL: https://i.ibb.co/J3GMvZV/In-Shot-20230912-224607030.jpg  \n Mr. Nagesh H C is a highly qualified mathematics teacher at Sapthagiri College. He holds a Master's degree M. Sc  and a Diploma in Education D. Ed. With his extensive knowledge and expertise, he plays a pivotal role in guiding students in the field of mathematics."
+
+  utter_MM:
+  - text: "IMG_URL: https://i.ibb.co/hyGc5Lb/MM-edited.jpg \n Mr. Mahantesh M is an accomplished educator in the field of mathematics at our college. With his impressive qualifications, including an M. Sc degree and a Ph. D, he possesses a strong academic background. Mr. Mahantesh's dedication to mathematics education is evident through his commitment to both learning and teaching. His expertise and passion greatly enhance the educational experience for our students"
+
+  utter_DJ:
+  - text: "IMG_URL: https://i.ibb.co/YBY1B4v/In-Shot-20230912-224439604.jpg  \n Mr. Dhananjay is a dedicated educator in the field of chemistry at our college. With his qualifications, which include an M. Sc degree and B. Ed certification, he possesses a strong academic foundation. His commitment to providing quality education in chemistry is commendable, contributing to the academic growth and understanding of our students."
+
+  utter_random:
+  - text: "I apologize, but my expertise is limited to providing details about Sri Sapthagiri Pre University College. If you could kindly rephrase your question within those areas, I'd be happy to assist you. For inquiries outside of my expertise, I recommend seeking guidance from a specialist or referring to a different source of information. Is there anything related to Sri Sapthagiri Pre University college that you would like to know or discuss?" 
+
+  utter_how_u:
+  - text: "Hello! I'm just a chatbot, so I don't have feelings, but I'm here and ready to assist you. How can I help you today?"
+
+  utter_founder:
+  - text: "Sapthagiri College was founded by D. S. Kumar in the year 2006. He played a significant role in establishing this esteemed institution, which has been providing quality education and guidance to students ever since." 
+
+  utter_hem_com:
+  - text: "We have multiple teachers with the name 'Hemanth Kumar'. Could you please specify which Hemanth Kumar sir you are referring to? You can mention their subject or title to help me assist you better."
+
+  utter_Dru:
+  - text: "IMG_URL: https://i.ibb.co/0hqXZkg/In-Shot-20230912-224320992.jpg  \n Drushadwathi is a dedicated mathematics lecturer at our college. She holds an M. Sc degree, which adds to her strong academic background. Drushadwathi's commitment to providing quality education in mathematics is commendable. Her expertise and passion contribute significantly to our students' academic growth and understanding of the subject."
+
+  utter_DSK:
+  - text: "IMG_URL: https://i.ibb.co/QbHyxGR/dsk-edited.jpg \n D. S. Kumar, the President and Founder of our college, is a visionary leader who has been the driving force behind the establishment and growth of our institution. With a deep commitment to education and the welfare of students, he founded the college with the sole intention of providing quality education.\n Mr. Kumar's dedication and vision have led to the creation of a vibrant learning community that empowers students to excel in their academic pursuits. His unwavering commitment to education continues to inspire us all, making him a guiding light in our college's journey of educating and nurturing future leaders."
+
+  utter_PRK:
+  - text: "IMG_URL: https://i.ibb.co/Hpr0BNy/Padmarekha-mam-edited.jpg \n Padmarekha is a key member of our college's leadership team, playing a crucial role in its efficient functioning and administration. She holds a position of significant responsibility, ensuring that our institution runs smoothly and effectively. Her dedication and contributions are highly valued in supporting the college's mission and vision."
+
+  utter_NRP:
+  - text: "IMG_URL: https://i.ibb.co/GcN6WDD/NRP-edited.jpg \n Dr. H. S. Niranjan Aradhya, our esteemed Principal, is an exemplary leader known for his unwavering dedication to our college. His hard work and passion are evident in the positive changes he brings to our institution. \n Dr. Aradhya's wisdom and popularity extend beyond the college premises, making him a respected figure in the city. His commitment to education and his multifaceted role, which includes teaching biology, reflect his dedication to both students and academics. He is truly a source of inspiration and respect for everyone in the college community."
+
+  utter_CEO:
+  - text: "IMG_URL: https://i.ibb.co/JdNHQKm/CEO-edited.jpg \n Mr. Mrinal Kumar S, our esteemed CEO, is the driving force behind the success of our college. His unwavering dedication and passion for his role at Sapthagiri Pre University College are truly commendable.\n What sets Mr. Kumar apart is his remarkable ability to connect with students despite a demanding schedule. He goes above and beyond to ensure that students receive the support they need. His commitment to their growth and well-being is evident in his willingness to make time for students who require assistance. \n Mr. Kumar's hard work, passion, and student-centric approach make him an invaluable leader and a source of inspiration for us all."
+
+  utter_CBO:
+  - text: "IMG_URL: https://i.ibb.co/tQNZ2Qf/Archana-mam-edited.jpg \n Archana S. Kumar, our dedicated Chief Belief Officer (CBO), is a visionary leader who plays a pivotal role in shaping the aesthetic and overall development of our college. Her commitment to her responsibilities is second to none, making her one of the most hardworking members of our management team.\n As the CBO, Archana brings a creative and innovative touch to the college's environment, both in its physical spaces and online presence. Her visionary approach helps create a vibrant and dynamic atmosphere that enhances the college experience for students and staff alike. Her tireless efforts contribute significantly to our college's growth and success."
+
+  utter_MG:
+  - text: "IMG_URL: https://i.ibb.co/Ksnw3Nm/management.jpg \n The management team at Sapthagiri Pre University College comprises dedicated individuals who play key roles in guiding the institution.\n \n Our management includes:\nMr. D.S. Kumar (President)\nMs. Padmarekha (Secretary)\nDr. H.S. Niranjan Aradhya (Principal)\nMr. Chennappa Barigidad (Education Officer)\nMs. Archana S. Kumar (Chief Belief Officer)\nMr. Mrinal Kumar (Chief Executive Officer)\n \nThese individuals collectively provide leadership, oversight, and direction for our college, ensuring its smooth operation and commitment to academic excellence."
+
+  utter_NR_com:
+  - text: "We have multiple teachers with the name 'Niranjan Sir'. Could you please specify which Niranjan sir you are referring to? You can mention their subject or full name to help me assist you better."
+
+  utter_IDA:
+  - text: "IMG_URL: https://i.ibb.co/c86R7Hq/ida.png \n The IDA, which stands for India Didactics Award, is a prestigious recognition that Sapthagiri College has earned. It signifies our commitment to excellence in education and innovative teaching methodologies. This award acknowledges our dedication to providing a high-quality and forward-thinking education to our students. We are proud to have received this honor, which inspires us to continue enhancing our educational practices and making a positive impact on our students' learning experiences."
+
+  utter_ADV:
+  - text: "The Advance Batch program at Sapthagiri College is a specialized initiative designed to provide extra coaching and support to students aspiring to excel in competitive exams like JEE, NEET, and KCET. Students selected for the Advance Batch receive additional evening coaching classes, as well as Sunday classes conducted by external guest lecturers who are experts in their respective fields. This program is tailored to help our students achieve their academic goals and perform exceptionally well in these competitive examinations. It's a testament to our commitment to nurturing talent and preparing students for successful careers in science and medicine."
+
+  utter_ET:
+  - text: "IMG_URL: https://i.ibb.co/CHSXYdh/Expert-interactions.png \n At Sapthagiri College, we regularly host expert talks on a wide range of topics. These talks bring in subject-matter experts, industry leaders, and thought leaders to share their knowledge and insights with our students. It's an excellent opportunity for our students to expand their horizons, gain valuable perspectives, and stay updated on the latest developments in various fields."
+
+  utter_AT:
+  - text: "IMG_URL: https://i.ibb.co/FBZ8BDh/alumni-talks.jpg \n Alumni talks at Sapthagiri College are a wonderful opportunity for our current students to gain insights from our accomplished alumni. These talks feature successful graduates from various fields who share their experiences, career journeys, and valuable advice. It's a great way for our students to connect with alumni, learn from their experiences, and get inspired for their own future endeavors."
+
+  utter_top:
+  - text: "IMG_URL: https://i.ibb.co/Fxj8gKt/topprs.png \n Here are the top achievers for the batch 2022-23 at Sapthagiri College:\n \n In JEE Exam:\n \n Mohammed Saad - 99.2 percentile\n Aditi Chouhan - 97.8 percentile\n Karthik B - 93.9 percentile\n Adarsharadhya V - 96.3 percentile\n Kushal Raj - 91.0 percentile\n \n In NEET Exam:\n Karthik\n Aditi Chouhan\n Ullas P\n Sanjay M\n Mohammed Saad\n \nIn KCET Exam:\n Mohammed Saad - 423 rank\n Adithya S - 823 rank\n Karthik B - 880 rank\n Ullas P - 2638 rank\n \n State Board Exam Toppers:\n Spoorthy M - 7th rank\nCharan N - 7th rank\n Adithya S - 10th rank\n Mohammed Saad - 11th rank\n \n CA Foundation Qualifiers:\n Spurthi GS\n Kokila Ananth\n Chandan Gowda P\n Swarashree BS\n Hima Rashmi TN\n \n These remarkable students have shown exceptional dedication and achieved outstanding results in their respective exams. We're incredibly proud of their accomplishments."
+
+  utter_SG:
+  - text: "IMG_URL: https://i.ibb.co/BjrN0Js/SG-edited.jpg \n Shaziya Banu is a dedicated and friendly biology lecturer at Sapthagiri College. She holds a Master of Science degree in biology and is known for her passion for teaching and her approachable nature. With her qualifications and commitment to education, she plays a significant role in imparting knowledge and inspiring our students in the field of biology."
+
+  utter_AN:
+  - text: "IMG_URL: https://i.ibb.co/N3Jf5GF/Anil-edited.jpg \n Anil Kumar Y R is a highly qualified chemistry lecturer at Sapthagiri College. He holds a Master of Science degree and a Bachelor of Education degree. With his extensive knowledge and teaching expertise, he plays a pivotal role in educating and inspiring our students in the field of chemistry."
+
+  utter_SN:
+  - text: "Sangeetha N is an esteemed statistics lecturer at Sapthagiri College, holding a Master of Business Administration degree. Her academic and professional background in statistics and business management equips her to provide students with valuable insights and knowledge in the field of statistics."
+
+  utter_PR:
+  - text: "Padmashree is a dedicated English lecturer at Sapthagiri College, holding a Master of Arts (MA) degree. She brings her passion for literature and language to the classroom, inspiring students with her expertise in the English language and literature."
+
+  utter_amo:
+  - text: "For information regarding course fees, please contact our college help desk at this number: 720-4488-777. They will be happy to provide you with the details you need."
+
+  utter_dev:
+  - text: "Our chatbot is the result of collaborative efforts between a talented development team and the expert guidance of our esteemed computer science faculty.\n \n Development Team:\n 1. Mohammed Tahir\n 2. Mustaqeem Rafi\n 3. Hema Sai T\n 4. Kiran S.K\n \n We appreciate the guidance of our computer science faculty:\n 1. Miss Prabharani S\n2. Mr Jeelani\n \n Together, they've made our chatbot a reality."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

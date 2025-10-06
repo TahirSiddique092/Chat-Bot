@@ -1,0 +1,507 @@
+version: "3.1"
+
+stories:
+
+- story: greet path
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: goodbye path 
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: bot_challenge path 
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: about_sap path 
+  steps:
+  - intent: about_sap
+  - action: utter_about_sap 
+
+- story: about_courses path 
+  steps:
+  - intent: about_courses
+  - action: utter_about_courses
+
+- story: about_sciencecourses path 
+  steps:
+  - intent: about_sciencecourses
+  - action: utter_about_sciencecourses 
+
+- story: about_commercecourses path 
+  steps:
+  - intent: about_commercecourses
+  - action: utter_about_commercecourses  
+
+- story: location path 
+  steps:
+  - intent: location
+  - action: utter_location
+
+- story: praise path 
+  steps:
+  - intent: praise
+  - action: utter_praise
+
+- story: events path 
+  steps:
+  - intent: events
+  - action: utter_events
+
+- story: STEM path 
+  steps:
+  - intent: STEM
+  - action: utter_STEM
+
+- story: Robotic path 
+  steps:
+  - intent: Robotic
+  - action: utter_Robotic
+
+- story: Environment path 
+  steps:
+  - intent: Environment
+  - action: utter_Environment
+
+- story: Techno path 
+  steps:
+  - intent: Techno
+  - action: utter_Techno
+
+- story: Ankura path 
+  steps:
+  - intent: Ankura
+  - action: utter_Ankura
+
+- story: Namdesi path 
+  steps:
+  - intent: Namdesi
+  - action: utter_Namdesi
+
+- story: SAP path 
+  steps:
+  - intent: SAP
+  - action: utter_SAP
+
+- story: TED-ED path 
+  steps:
+  - intent: TED-ED
+  - action: utter_TED-ED
+
+- story: BOCS path 
+  steps:
+  - intent: BOCS
+  - action: utter_BOCS
+
+- story: BCPD path 
+  steps:
+  - intent: BCPD
+  - action: utter_BCPD
+
+- story: Industrial path 
+  steps:
+  - intent: Industrial
+  - action: utter_Industrial
+
+- story: Bank path 
+  steps:
+  - intent: Bank
+  - action: utter_Bank
+
+- story: Deepavali path 
+  steps:
+  - intent: Deepavali
+  - action: utter_Deepavali
+
+- story: Kurukshetra path 
+  steps:
+  - intent: Kurukshetra
+  - action: utter_Kurukshetra
+
+- story: SEPME path 
+  steps:
+  - intent: SEPME
+  - action: utter_SEPME   
+
+- story: Tally path 
+  steps:
+  - intent: Tally
+  - action: utter_Tally   
+
+- story: Special path 
+  steps:
+  - intent: Special
+  - action: utter_Special
+
+- story: faculty path 
+  steps:
+  - intent: faculty
+  - action: utter_faculty
+
+- story: scifaculty path 
+  steps:
+  - intent: scifaculty
+  - action: utter_scifaculty
+
+- story: comfaculty path 
+  steps:
+  - intent: comfaculty
+  - action: utter_comfaculty
+
+- story: adminfaculty path 
+  steps:
+  - intent: adminfaculty
+  - action: utter_adminfaculty
+
+- story: langfaculty path 
+  steps:
+  - intent: langfaculty
+  - action: utter_langfaculty
+
+- story: extrafacility path 
+  steps:
+  - intent: extrafacility
+  - action: utter_extrafacility
+
+- story: JD path 
+  steps:
+  - intent: JD
+  - action: utter_JD
+
+- story: CS path 
+  steps:
+  - intent: CS
+  - action: utter_CS
+
+- story: HR path 
+  steps:
+  - intent: HR
+  - action: utter_HR
+
+- story: NR path 
+  steps:
+  - intent: NR
+  - action: utter_NR
+
+- story: NK path 
+  steps:
+  - intent: NK
+  - action: utter_NK
+
+- story: NS path 
+  steps:
+  - intent: NS
+  - action: utter_NS
+
+- story: MAG path 
+  steps:
+  - intent: MAG
+  - action: utter_MAG
+
+- story: GR path 
+  steps:
+  - intent: GR
+  - action: utter_GR
+
+- story: SM path 
+  steps:
+  - intent: SM
+  - action: utter_SM
+
+- story: HS path 
+  steps:
+  - intent: HS
+  - action: utter_HS  
+
+- story: HKS path 
+  steps:
+  - intent: HKS
+  - action: utter_HKS
+
+- story: BHP path 
+  steps:
+  - intent: BHP
+  - action: utter_BHP
+
+- story: HES path 
+  steps:
+  - intent: HES
+  - action: utter_HES
+
+- story: DS path 
+  steps:
+  - intent: DS
+  - action: utter_DS
+
+- story: PMN path 
+  steps:
+  - intent: PMN
+  - action: utter_PMN
+
+- story: MCA path 
+  steps:
+  - intent: MCA
+  - action: utter_MCA
+
+- story: SPR path 
+  steps:
+  - intent: SPR
+  - action: utter_SPR
+
+- story: JS path 
+  steps:
+  - intent: JS
+  - action: utter_JS
+
+- story: BTM path 
+  steps:
+  - intent: BTM
+  - action: utter_BTM
+
+- story: AS path 
+  steps:
+  - intent: AS
+  - action: utter_AS 
+
+- story: CB path 
+  steps:
+  - intent: CB
+  - action: utter_CB  
+
+- story: SIT path 
+  steps:
+  - intent: SIT
+  - action: utter_SIT  
+
+- story: HMP path 
+  steps:
+  - intent: HMP
+  - action: utter_HMP  
+
+- story: DVP path 
+  steps:
+  - intent: DVP
+  - action: utter_DVP  
+
+- story: RJ path 
+  steps:
+  - intent: RJ
+  - action: utter_RJ  
+
+- story: VK path 
+  steps:
+  - intent: VK
+  - action: utter_VK  
+
+- story: TK path 
+  steps:
+  - intent: TK
+  - action: utter_TK  
+
+- story: TVS path 
+  steps:
+  - intent: TVS
+  - action: utter_TVS  
+
+- story: HRc path 
+  steps:
+  - intent: HRc
+  - action: utter_HRc  
+
+- story: HR_com 1 path 
+  steps:
+  - intent: HR_com
+  - action: utter_HR_com
+  - intent: HR
+  - action: utter_HR
+
+- story: HR_com 2 path 
+  steps:
+  - intent: HR_com
+  - action: utter_HR_com
+  - intent: HRc
+  - action: utter_HRc 
+
+- story: HR_com 3 path 
+  steps:
+  - intent: HR_com
+  - action: utter_HR_com
+  - intent: HRs
+  - action: utter_HRs
+
+- story: HGS path 
+  steps:
+  - intent: HGS
+  - action: utter_HGS
+
+- story: LT path 
+  steps:
+  - intent: LT
+  - action: utter_LT
+
+- story: HRs path 
+  steps:
+  - intent: HRs
+  - action: utter_HRs
+
+- story: JJ path 
+  steps:
+  - intent: JJ
+  - action: utter_JJ
+
+- story: RK path 
+  steps:
+  - intent: RK
+  - action: utter_RK
+
+- story: HCN path 
+  steps:
+  - intent: HCN
+  - action: utter_HCN
+
+- story: MM path 
+  steps:
+  - intent: MM
+  - action: utter_MM
+
+- story: DJ path 
+  steps:
+  - intent: DJ
+  - action: utter_DJ
+
+- story: random path 
+  steps:
+  - intent: random
+  - action: utter_random
+
+- story: how_u path 
+  steps:
+  - intent: how_u
+  - action: utter_how_u 
+
+- story: founder path 
+  steps:
+  - intent: founder
+  - action: utter_founder  
+
+- story: hem_com 1 path 
+  steps:
+  - intent: hem_com
+  - action: utter_hem_com
+  - intent: HS
+  - action: utter_HS
+
+- story: hem_com 2 path 
+  steps:
+  - intent: hem_com
+  - action: utter_hem_com
+  - intent: HKS
+  - action: utter_HKS  
+
+- story: Dru path 
+  steps:
+  - intent: Dru
+  - action: utter_Dru
+
+- story: DSK path 
+  steps:
+  - intent: DSK
+  - action: utter_DSK
+
+- story: PRK path 
+  steps:
+  - intent: PRK
+  - action: utter_PRK
+
+- story: NRP path 
+  steps:
+  - intent: NRP
+  - action: utter_NRP
+
+- story: CEO path 
+  steps:
+  - intent: CEO
+  - action: utter_CEO
+
+- story: CBO path 
+  steps:
+  - intent: CBO
+  - action: utter_CBO   
+
+- story: NR_com 1 path 
+  steps:
+  - intent: NR_com
+  - action: utter_NR_com
+  - intent: NR
+  - action: utter_NR
+
+- story: NR_com 2 path 
+  steps:
+  - intent: NR_com
+  - action: utter_NR_com
+  - intent: NRP
+  - action: utter_NRP 
+
+- story: MG path 
+  steps:
+  - intent: MG
+  - action: utter_MG 
+
+- story: IDA path 
+  steps:
+  - intent: IDA
+  - action: utter_IDA
+
+- story: ADV path 
+  steps:
+  - intent: ADV
+  - action: utter_ADV
+
+- story: ET path 
+  steps:
+  - intent: ET
+  - action: utter_ET
+
+- story: AT path 
+  steps:
+  - intent: AT
+  - action: utter_AT
+
+- story: top path 
+  steps:
+  - intent: top
+  - action: utter_top   
+
+- story: SG path 
+  steps:
+  - intent: SG
+  - action: utter_SG 
+
+- story: AN path 
+  steps:
+  - intent: AN
+  - action: utter_AN
+
+- story: SN path 
+  steps:
+  - intent: SN
+  - action: utter_SN    
+
+- story: PR path 
+  steps:
+  - intent: PR
+  - action: utter_PR 
+
+- story: amo path 
+  steps:
+  - intent: amo
+  - action: utter_amo
+
+- story: dev path 
+  steps:
+  - intent: dev
+  - action: utter_dev
